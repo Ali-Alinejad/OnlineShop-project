@@ -1,9 +1,11 @@
-import MainPage from "./sections/MainPage/MainPage";
+import Header from "./sections/MainPage/Header/Header";
+import Product from "./sections/MainPage/product/product";
 
 function App() {
   return (
     <>
-      <MainPage />
+      <Header />
+      <Product />
     </>
   );
 }
