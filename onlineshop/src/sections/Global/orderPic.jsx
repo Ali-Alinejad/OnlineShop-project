@@ -1,5 +1,4 @@
 import OrderLogo from "../images/order.png";
-import "./orderLogo.css";
 
 function OrderPic() {
   return (

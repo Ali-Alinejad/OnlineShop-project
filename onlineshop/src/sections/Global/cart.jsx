@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { Card, CardHeader, CardBody, Image, Button } from "@nextui-org/react";
 import { useState } from "react";
 
