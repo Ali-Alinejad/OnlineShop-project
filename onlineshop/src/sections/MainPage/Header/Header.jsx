@@ -1,14 +1,21 @@
 import OrderPic from "../../Global/orderPic.jsx";
 import { Button } from "@nextui-org/react";
-// app/components/ThemeSwitcher.tsx
-"use client";
+import MainPic from "../../images/Online-Shopping-Cart.png";
 
+// app/components/ThemeSwitcher.tsx
+("use client");
 
 function Header() {
- 
   return (
     <>
-      <div className="bg-slate-800 w-full h-[30vh] p-0 mt-0 ">
+      <div className="bg-slate-800 w-full h-[30vh] p-0 mt-0  " >
+        <img
+          src={MainPic}
+          alt="Shop"
+          className="h-10 bg-cover"
+          id="orderLogo"
+        />
+        ;
         <ul className="flex flex-row-reverse p-10">
           <li className="">
             <Button
@@ -26,7 +33,6 @@ function Header() {
               <OrderPic />
             </Button>
           </li>
-       
         </ul>
       </div>
     </>

@@ -1,9 +1,9 @@
+/* eslint-disable react/prop-types */
 import { Card, CardHeader, CardBody, Image, Button } from "@nextui-org/react";
 import { useState } from "react";
 
 export default function Cart({ product }) {
   const [showDetails, setShowDetails] = useState(false);
-  const { rate } = product.rating;
 
   const handleImageClick = () => {
     setShowDetails(!showDetails);
@@ -35,9 +35,7 @@ export default function Cart({ product }) {
             <p className="text-tiny uppercase font-bold text-black">
               {product.title}
             </p>
-            <small className="text-default-500 text-black">
-              {rate} <span>⭐</span>
-            </small>
+            <small className="text-default-500 text-black"></small>
             <Button color="danger" className="font-bold text-2xl m-5">
               ${product.price}
             </Button>
