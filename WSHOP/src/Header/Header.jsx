@@ -1,10 +1,9 @@
 import { Button, Flex } from "antd";
-import Slide from "../slide/slide";
-import { UserOutlined ,NotificationOutlined } from '@ant-design/icons';
-import { Avatar, Badge, Space } from 'antd';
+import Slide from "./slide/slide";
+import { UserOutlined, NotificationOutlined } from "@ant-design/icons";
+import { Avatar, Badge, Space } from "antd";
 
-import './Header.css'
-
+import "./Header.css";
 
 const Header = () => {
   return (
@@ -66,7 +65,7 @@ const Header = () => {
           </div>
         </Flex>
       </div>
-        <Slide />
+      <Slide />
     </>
   );
 };
