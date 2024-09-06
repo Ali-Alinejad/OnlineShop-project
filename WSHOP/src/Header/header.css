@@ -1,0 +1,10 @@
+#flex{
+    background-image: url('../images/template-org.png');
+   background-position: 0px -20px;
+   backdrop-filter: blur(1000px);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+   
+    
+}

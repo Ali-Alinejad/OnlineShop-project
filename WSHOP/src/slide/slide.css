@@ -1,0 +1,51 @@
+#slide1{
+background-image: linear-gradient(to bottom, #e1b000, #e4b400, #e6b900, #e9bd00, #ebc200);
+        text-align: center;
+        line-height: 160px;
+        height: 60vh;
+        border-radius: 20px;
+
+}
+
+#slide1_item{
+    background-image: url("../../public/images/transp-1.png");
+    height: 400px;
+    width: 50%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    scale: 2;
+
+    
+
+}
+
+
+
+#slide2 {
+    
+background-image: linear-gradient(to bottom, #5b00d3, #5f05c5, #610bb8, #6210ab, #62159f);
+    text-align: center;
+    line-height: 160px;
+    height: 60vh;
+    border-radius: 20px;
+
+}
+#slide3 {
+    
+background-image: linear-gradient(to top, #89b93d, #7ab431, #69b024, #57ab15, #41a600);
+    text-align: center;
+    line-height: 160px;
+    height: 60vh;
+    border-radius: 20px;
+
+}
+#slide4 {
+    
+background-image: linear-gradient(to bottom, #c63f3f, #c43f4d, #c04159, #ba4564, #b3496e);
+    text-align: center;
+    line-height: 160px;
+    height: 60vh;
+    border-radius: 20px;
+
+}
