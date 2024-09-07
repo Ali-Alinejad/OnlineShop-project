@@ -10,6 +10,7 @@ import {
   Dropdown,
   DropdownMenu,
   Avatar,
+  Spinner,
 } from "@nextui-org/react";
 import { useLocation } from "react-router-dom";
 
@@ -17,10 +18,10 @@ export default function NavbarHeader() {
   const location = useLocation();
 
   return (
-    <Navbar isBordered className="h-[20vh]">
-      <NavbarContent className="justify-between">
-        <NavbarBrand className="mr-4 bg">
-          <p className="sm:block font-bold font-semibold font-mono ">
+    <Navbar isBordered height={"100px"}>
+      <NavbarContent className="justify-around">
+        <NavbarBrand className="">
+          <p className="sm:block font-semibold font-mono cursor-pointer scale-125">
             ELECTROSHOP
           </p>
         </NavbarBrand>
@@ -50,7 +51,7 @@ export default function NavbarHeader() {
       <NavbarContent as="div" className="items-center" justify="end">
         <Input
           classNames={{
-            base: "max-w-full sm:max-w-[10rem] h-10",
+            base: "max-w-[10rem] sm:max-w-[4rem] h-10",
             mainWrapper: "h-full",
             input: "text-small",
             inputWrapper:
@@ -64,7 +65,7 @@ export default function NavbarHeader() {
         <Dropdown placement="bottom-end">
           <DropdownTrigger>
             <Avatar
-              isBordered
+              isFocusable={true}
               as="button"
               className="transition-transform"
               color="secondary"
@@ -75,15 +76,21 @@ export default function NavbarHeader() {
           </DropdownTrigger>
           <DropdownMenu aria-label="Profile Actions" variant="flat">
             <DropdownItem key="profile" className="h-14 gap-2">
-              <p className="font-semibold">Signed in as</p>
-              <p className="font-semibold">Gmail</p>
+              <li  className="inline-flex gap-4">
+                <ul>
+                  <p className="font-semibold">Create Account </p>
+                              </ul>
+                              <ul>
+                                  <Spinner size="sm" />
+                              </ul>
+              </li>
             </DropdownItem>
-            <DropdownItem key="settings">My Settings</DropdownItem>
-            <DropdownItem key="system">System</DropdownItem>
-            <DropdownItem key="configurations">Configurations</DropdownItem>
+
+            <DropdownItem key="settings">Settings</DropdownItem>
+
             <DropdownItem key="help_and_feedback">Help & Feedback</DropdownItem>
             <DropdownItem key="logout" color="danger">
-              Log Out
+              Log in
             </DropdownItem>
           </DropdownMenu>
         </Dropdown>

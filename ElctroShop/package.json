@@ -7,13 +7,18 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server --watch data/digikala.json --port 8000"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
+    "@nextui-org/card": "^2.0.33",
+    "@nextui-org/input": "^2.2.4",
     "@nextui-org/navbar": "^2.0.36",
     "@nextui-org/react": "^2.4.6",
+    "@nextui-org/system": "^2.2.5",
+    "@nextui-org/theme": "^2.2.9",
     "aos": "^2.3.4",
     "clsx": "^2.1.1",
     "framer-motion": "^11.5.4",
