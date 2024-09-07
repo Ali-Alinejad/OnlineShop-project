@@ -1,4 +1,4 @@
-import { Button, Card, CardBody, CardFooter, Image, Spinner ,Textarea } from "@nextui-org/react";
+import { Button, Card, CardBody, CardFooter, Divider, Image, Spinner } from "@nextui-org/react";
 
 import  { useEffect, useState } from "react";
 import { ImCircleRight } from "react-icons/im";
@@ -42,30 +42,37 @@ function Digikala() {
           <div className="w-[300px] h-[300px] m-12 flex-col gap  ">
             {cartData.map}
             <Card isFooterBlurred radius="lg" key={item.id}>
-              <CardBody className="overflow-hidden m-2  ">
+              <CardBody className="overflow-hidden m-2  cursor-pointer ">
                 <Image
                   height={200}
                   alt="Card background"
                   className="z-0 "
-                  src={item.image_url}
+                              src={item.image_url}
+                              onClick={"onClick"}
+                              
                 />
               </CardBody>
-              <CardFooter className="text-small justify-between animate-jump animate-infinite">
-                <Textarea
-                  isReadOnly
-                  color="default"
-                  size="md"
-                  loading="true"
-                  label={item.Price}
-                  variant="faded"
-                  labelPlacement="outside"
-                  placeholder=""
-                  defaultValue={item.title}
-                  className="max-w-xs"
-                />
-                <br />
+              <CardFooter className="text-small justify-between animate-jump animate-infinite" key={item.id}>
+                <div className="max-w-md">
+                  <div className="space-y-1">
+                    <h4 className="text-medium font-medium">
+                      {item.title}
+                    </h4>
+                    <p className="text-small text-default-400">
+                      Beautiful, fast and modern React UI library.
+                    </p>
+                  </div>
+                  <Divider className="my-4" />
+                  <div className="flex h-5 items-center space-x-4 text-small">
+                    <div>Blog</div>
+                    <Divider orientation="vertical" />
+                    <div>Docs</div>
+                    <Divider orientation="vertical" />
+                    <div>Source</div>
+                  </div>
+                </div>
                 <Button
-                  className="m-1 h-20 mt-7"
+                  className="m-1 h-16 mt-14"
                   variant="faded"
                   color="secondary"
                   endContent={

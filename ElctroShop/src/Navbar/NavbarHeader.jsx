@@ -21,7 +21,7 @@ export default function NavbarHeader() {
     <Navbar isBordered height={"100px"}>
       <NavbarContent className="justify-around">
         <NavbarBrand className="">
-          <p className="sm:block font-semibold font-mono cursor-pointer scale-125  ">
+          <p className="sm:block font-semibold font-mono cursor-pointer scale-125">
             ELECTROSHOP
           </p>
         </NavbarBrand>
@@ -51,7 +51,7 @@ export default function NavbarHeader() {
       <NavbarContent as="div" className="items-center" justify="end">
         <Input
           classNames={{
-            base: "max-w-full sm:max-w-[10rem] lg:max-w-[20rem] h-10",
+            base: "max-w-full sm:max-w-[10rem] lg:max-w-[20rem] hover:w-[22rem] h-10",
             mainWrapper: "h-full",
             input: "text-small",
             inputWrapper:
