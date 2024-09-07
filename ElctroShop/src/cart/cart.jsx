@@ -1,5 +1,7 @@
 import { Button, Card, CardBody, CardFooter, Image, Spinner ,Textarea } from "@nextui-org/react";
+
 import  { useEffect, useState } from "react";
+import { ImCircleRight } from "react-icons/im";
 
 function Digikala() {
   const [cartData, setCartData] = useState([]);
@@ -34,13 +36,13 @@ function Digikala() {
   }
 
   return (
-    <div className="flex flex-row flex-wrap  row-span-4 justify-center text-center items-center bg-cover  ">
+    <div className="flex flex-row flex-wrap  row-span-4 justify-center text-center  gap-8 m-2 p-2 ">
       {cartData.map((item) => (
         <>
-          <div className="w-[300px] h-[300px] m-12 flex-col gap">
+          <div className="w-[300px] h-[300px] m-12 flex-col gap  ">
             {cartData.map}
             <Card isFooterBlurred radius="lg" key={item.id}>
-              <CardBody className="overflow-hidden m-2 ">
+              <CardBody className="overflow-hidden m-2  ">
                 <Image
                   height={200}
                   alt="Card background"
@@ -48,22 +50,27 @@ function Digikala() {
                   src={item.image_url}
                 />
               </CardBody>
-              <CardFooter className="text-small justify-between">
-                          <Textarea
-                            
+              <CardFooter className="text-small justify-between animate-jump animate-infinite">
+                <Textarea
                   isReadOnly
-                  label={item.title}
-                  variant="bordered"
+                  color="default"
+                  size="md"
+                  loading="true"
+                  label={item.Price}
+                  variant="faded"
                   labelPlacement="outside"
                   placeholder=""
                   defaultValue={item.title}
                   className="max-w-xs"
-                          />
-                          <br />
+                />
+                <br />
                 <Button
                   className="m-1 h-20 mt-7"
-                  variant="bordered"
-                  color="warning"
+                  variant="faded"
+                  color="secondary"
+                  endContent={
+                    <ImCircleRight className="scale-125 hover:scale-125 hover:animate-spinner-ease-spin" />
+                  }
                 >
                   Buy
                 </Button>

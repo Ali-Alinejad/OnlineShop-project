@@ -21,11 +21,11 @@ export default function NavbarHeader() {
     <Navbar isBordered height={"100px"}>
       <NavbarContent className="justify-around">
         <NavbarBrand className="">
-          <p className="sm:block font-semibold font-mono cursor-pointer scale-125">
+          <p className="sm:block font-semibold font-mono cursor-pointer scale-125  ">
             ELECTROSHOP
           </p>
         </NavbarBrand>
-        <NavbarContent className="sm:flex gap-4 ">
+        <NavbarContent className="sm:flex gap-20 ">
           <NavbarItem>
             <Link
               className="cursor-pointer uppercase "
@@ -51,7 +51,7 @@ export default function NavbarHeader() {
       <NavbarContent as="div" className="items-center" justify="end">
         <Input
           classNames={{
-            base: "max-w-[10rem] sm:max-w-[4rem] h-10",
+            base: "max-w-full sm:max-w-[10rem] lg:max-w-[20rem] h-10",
             mainWrapper: "h-full",
             input: "text-small",
             inputWrapper:
@@ -76,13 +76,13 @@ export default function NavbarHeader() {
           </DropdownTrigger>
           <DropdownMenu aria-label="Profile Actions" variant="flat">
             <DropdownItem key="profile" className="h-14 gap-2">
-              <li  className="inline-flex gap-4">
+              <li className="inline-flex gap-4">
                 <ul>
                   <p className="font-semibold">Create Account </p>
-                              </ul>
-                              <ul>
-                                  <Spinner size="sm" />
-                              </ul>
+                </ul>
+                <ul>
+                  <Spinner size="sm" />
+                </ul>
               </li>
             </DropdownItem>
 
