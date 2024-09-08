@@ -69,7 +69,13 @@ function Digikala() {
     <div className="flex flex-row flex-wrap row-span-4 justify-center text-center gap-8 m-2 p-2">
       {cartData.map((item) => (
         <div className="w-[300px] h-[300px] m-12 flex-col gap" key={item.id}>
-          <Card isBlurred isPressable  onPress={handlePress} radius="lg" className="hover:scale-110 group-hover:blur-xl">
+          <Card
+            isBlurred
+            isPressable
+            onPress={handlePress}
+            radius="lg"
+            className="hover:scale-110 group-hover:blur-xl"
+          >
             <CardBody className="overflow-hidden m-2 cursor-pointer">
               <Image
                 height={200}
@@ -77,7 +83,6 @@ function Digikala() {
                 loading="lazy"
                 className="z-0"
                 src={item.image_url}
-                
               />
             </CardBody>
             <CardFooter className="text-small justify-between animate-jump animate-infinite">
@@ -102,7 +107,7 @@ function Digikala() {
               <Button
                 className="m-1 h-16 mt-14"
                 variant="faded"
-                color="secondary"
+                color="danger"
                 endContent={
                   <ImCircleRight className="scale-125 hover:scale-125 hover:animate-spinner-ease-spin" />
                 }

@@ -13,6 +13,7 @@ import {
   Spinner,
 } from "@nextui-org/react";
 import { useLocation } from "react-router-dom";
+import Logo from "../../public/images/logo.png"; // Ensure this path is correct
 
 export default function NavbarHeader() {
   const location = useLocation();
@@ -21,15 +22,14 @@ export default function NavbarHeader() {
     <Navbar isBordered height={"100px"}>
       <NavbarContent className="justify-around">
         <NavbarBrand className="">
-          <p className="sm:block font-semibold font-mono cursor-pointer scale-125">
-            ELECTROSHOP
-          </p>
+          <img src={Logo} alt="Logo" style={{ height: "150px" }} />
+          {/* Set height for better visibility */}
         </NavbarBrand>
         <NavbarContent className="sm:flex gap-20 ">
           <NavbarItem>
             <Link
-              className="cursor-pointer uppercase "
-              color={location.pathname === "/" ? "secondary" : "foreground"}
+              className="cursor-pointer uppercase"
+              color={location.pathname === "/" ? "danger" : "foreground"}
               href="/"
               aria-current={location.pathname === "/" ? "page" : undefined}
             >
@@ -37,14 +37,15 @@ export default function NavbarHeader() {
             </Link>
           </NavbarItem>
 
-          <Link
-            className="cursor-pointer "
-            href="/order"
-            to="/order"
-            color={location.pathname === "/order" ? "secondary" : "foreground"}
-          >
-            Dashboard
-          </Link>
+          <NavbarItem>
+            <Link
+              className="cursor-pointer"
+              href="/order"
+              color={location.pathname === "/order" ? "danger" : "foreground"}
+            >
+              Dashboard
+            </Link>
+          </NavbarItem>
         </NavbarContent>
       </NavbarContent>
 
@@ -55,11 +56,10 @@ export default function NavbarHeader() {
             mainWrapper: "h-full",
             input: "text-small",
             inputWrapper:
-              "h-full font-normal text-default-500 bg-default-400/20 dark:bg-default-500/20 ",
+              "h-full font-normal text-default-500 bg-default-400/20 dark:bg-default-500/20",
           }}
           placeholder="Search"
           size="sm"
-          startContent={""}
           type="search"
         />
         <Dropdown placement="bottom-end">
@@ -68,17 +68,17 @@ export default function NavbarHeader() {
               isFocusable={true}
               as="button"
               className="transition-transform"
-              color="secondary"
+              color="danger"
               name=""
               size="sm"
-              src=""
+              src="" // Add a profile image URL if needed
             />
           </DropdownTrigger>
           <DropdownMenu aria-label="Profile Actions" variant="flat">
             <DropdownItem key="profile" className="h-14 gap-2">
               <li className="inline-flex gap-4">
                 <ul>
-                  <p className="font-semibold">Create Account </p>
+                  <p className="font-semibold">Create Account</p>
                 </ul>
                 <ul>
                   <Spinner size="sm" />
@@ -87,7 +87,6 @@ export default function NavbarHeader() {
             </DropdownItem>
 
             <DropdownItem key="settings">Settings</DropdownItem>
-
             <DropdownItem key="help_and_feedback">Help & Feedback</DropdownItem>
             <DropdownItem key="logout" color="danger">
               Log in

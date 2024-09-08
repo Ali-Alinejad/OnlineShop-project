@@ -49,7 +49,7 @@ import NavbarHeader from "../Navbar/NavbarHeader";
                       <p className="text-center text-small rounded-none">
                         Need to create an account?{" "}
                         <Link
-                          color="secondary"
+                          color="danger"
                           size="sm"
                           onPress={() => setSelected("sign-up")}
                         >
@@ -57,7 +57,7 @@ import NavbarHeader from "../Navbar/NavbarHeader";
                         </Link>
                       </p>
                       <div className="flex gap-2 justify-end">
-                        <Button fullWidth color="secondary">
+                        <Button fullWidth color="danger">
                           Login
                         </Button>
                       </div>
@@ -86,7 +86,7 @@ import NavbarHeader from "../Navbar/NavbarHeader";
                       <p className="text-center text-small">
                         Already have an account?{" "}
                         <Link
-                          color="secondary"
+                          color="danger"
                           size="sm"
                           onPress={() => setSelected("login")}
                         >
@@ -94,7 +94,7 @@ import NavbarHeader from "../Navbar/NavbarHeader";
                         </Link>
                       </p>
                       <div className="flex gap-2 justify-end">
-                        <Button fullWidth color="secondary">
+                        <Button fullWidth color="danger">
                           Sign up
                         </Button>
                       </div>
