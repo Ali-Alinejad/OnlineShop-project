@@ -10,7 +10,7 @@ function Intro() {
         <div>
           
 </div>
-<Image src={intro}  ></Image>
+<Image src={intro} className='z-0' ></Image>
       </div>
     </>
   );

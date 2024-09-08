@@ -17,7 +17,7 @@ import Logo from "../../public/images/logo.png"; // Ensure this path is correct
 import './navar.css'
 export default function NavbarHeader() {
   const location = useLocation();
-  
+
   return (
     <>
           <div id="Shadow"></div>
@@ -33,7 +33,7 @@ export default function NavbarHeader() {
               <img
                 src={Logo}
                 alt="Logo"
-                className="cursor-pointer overflow-hidden  mr-16 transition duration-300 hover:animate-appearance-in "
+                className="cursor-pointer overflow-hidden  lg:mr-16 max-md:mr-0  transition duration-300 hover:animate-appearance-in "
               />
             </NavbarBrand>
           </Link>
@@ -89,7 +89,10 @@ export default function NavbarHeader() {
               <DropdownItem key="profile" className="h-14 gap-2">
                 <li className="inline-flex gap-4">
                   <ul>
-                    <p className="font-semibold">Create Account</p>
+                    <Link href="/Login" to="/Login">
+
+                    Create Account 
+                    </Link>
                   </ul>
                   <ul>
                     <Spinner size="sm" />
