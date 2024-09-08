@@ -68,20 +68,21 @@ function Digikala() {
   return (
     <div className="flex flex-row flex-wrap row-span-4 justify-center text-center gap-8 m-2 p-2">
       {cartData.map((item) => (
-        <div className="w-[300px] h-[300px] m-12 flex-col gap" key={item.id}>
+        <div className="w-[200px] h-[300px] m-12 flex-col gap" key={item.id}>
           <Card
-            isBlurred
+            
             isPressable
             onPress={handlePress}
             radius="lg"
-            className="hover:scale-110 group-hover:blur-xl"
+            className="hover:scale-105 h-[400px] "
           >
             <CardBody className="overflow-hidden m-2 cursor-pointer">
               <Image
-                height={200}
+                
+              
                 alt="Card background"
                 loading="lazy"
-                className="z-0"
+                className="z-0 scale-80 hover:scale-100"
                 src={item.image_url}
               />
             </CardBody>
@@ -95,7 +96,7 @@ function Digikala() {
                     Beautiful, fast and modern React UI library.
                   </p>
                 </div>
-                <Divider className="my-4" />
+                <Divider className="my-2 " />
                 <div className="flex h-5 items-center space-x-4 text-small">
                   <div>Blog</div>
                   <Divider orientation="vertical" />

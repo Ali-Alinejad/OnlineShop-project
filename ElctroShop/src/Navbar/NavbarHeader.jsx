@@ -33,7 +33,7 @@ export default function NavbarHeader() {
               <img
                 src={Logo}
                 alt="Logo"
-                className="cursor-pointer overflow-hidden h-40 w-36 mr-10 transition duration-300 hover:scale-125 "
+                className="cursor-pointer overflow-hidden  mr-16 transition duration-300 hover:animate-appearance-in "
               />
             </NavbarBrand>
           </Link>

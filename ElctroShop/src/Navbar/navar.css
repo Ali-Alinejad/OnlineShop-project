@@ -10,12 +10,12 @@
 @keyframes infinite-spinning {
     0% {
         transform: rotate(-120deg);
-       height: 50%;
-
+     
+opacity: 0;
     }
     30%{
-opacity: 0;
-        height: 250%;
+opacity: 0.5;
+        
     }
     
     50%{
@@ -25,20 +25,21 @@ opacity: 1;
        
 }
 70%{
-    opacity: 0;
+    opacity: 0.5;
 }
 
     100% {
        
          transform: rotate(-120deg);
-        height: 100%;
+     
         
- 
+    opacity: 0;
  
     }
 }
 
 #Shadow {
+    height: 250%;
     position: fixed;
   overflow: hidden;
   display: flex;
