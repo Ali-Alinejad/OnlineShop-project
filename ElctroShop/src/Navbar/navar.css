@@ -1,0 +1,50 @@
+:root {
+    --primary-color: rgb(255, 0, 0);
+    --box-shadow-size: 100px;
+    --box-shadow-blur: 50px;
+    --animation-duration: 12s;
+}
+
+
+
+@keyframes infinite-spinning {
+    0% {
+        transform: rotate(-120deg);
+       height: 0%;
+      
+    }
+    
+    50%{
+        transform: rotate(-90deg);
+        height: 250%;
+       
+}
+
+    100% {
+       
+         transform: rotate(-120deg);
+        height: 0%;
+ 
+ 
+    }
+}
+
+#Shadow {
+    position: fixed;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    top: 5%;
+   left: -15%;
+ 
+    width: 100px;
+    overflow: hidden;
+    transform-origin: top center;
+    z-index: 0;
+    background: conic-gradient(from 90deg at 40% -25%, #00158d, #f79d03, #ee6907, #0a009c, #f5005231, #c00000, #12cf87, #15c792, #44ec11, #10d63b, #48de0d, #ee6907, #f79d03, #ffd700, #ffd700, #ffd700);
+        
+    transition: box-shadow 1s ease-in-out;
+    animation: infinite-spinning var(--animation-duration) infinite;
+    
+}
