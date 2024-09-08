@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 import { nextui } from "@nextui-org/theme";
 
 export const content = [

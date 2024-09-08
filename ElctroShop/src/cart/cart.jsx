@@ -18,7 +18,7 @@ function Digikala() {
   useEffect(() => {
     async function fetchCartData() {
       try {
-        const res = await fetch("http://localhost:8000/product");
+        const res = await fetch("http://localhost:8000/products");
         if (!res.ok) {
           throw new Error("Network response was not ok");
         }
@@ -33,11 +33,11 @@ function Digikala() {
 
     fetchCartData();
   }, []);
-
-  const handleClick = () => {
-    console.log("Image clicked!");
-  };
-
+  const handlePress = () => {
+  console.log("pressed")
+}
+  
+  
   if (loading) {
     return (
       
@@ -69,20 +69,23 @@ function Digikala() {
     <div className="flex flex-row flex-wrap row-span-4 justify-center text-center gap-8 m-2 p-2">
       {cartData.map((item) => (
         <div className="w-[300px] h-[300px] m-12 flex-col gap" key={item.id}>
-          <Card isFooterBlurred radius="lg">
+          <Card isBlurred isPressable  onPress={handlePress} radius="lg" className="hover:scale-110 group-hover:blur-xl">
             <CardBody className="overflow-hidden m-2 cursor-pointer">
               <Image
                 height={200}
                 alt="Card background"
+                loading="lazy"
                 className="z-0"
                 src={item.image_url}
-                onClick={handleClick}
+                
               />
             </CardBody>
             <CardFooter className="text-small justify-between animate-jump animate-infinite">
               <div className="max-w-md">
                 <div className="space-y-1">
-                  <h4 className="text-medium font-medium">{item.title}</h4>
+                  <h4 className="text-medium font-medium">
+                    {item.title["en"]}
+                  </h4>
                   <p className="text-small text-default-400">
                     Beautiful, fast and modern React UI library.
                   </p>

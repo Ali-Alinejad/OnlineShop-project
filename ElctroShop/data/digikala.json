@@ -1,148 +1,219 @@
 {
-  "product": [
+  "products": [
     {
       "Price": "12345 $",
       "id": 14829816,
-      "title": "sdsd",
+      "title": {
+        "fa": "sdsd",
+        "en": "sdsd"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/76010.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16365971,
-      "title": "laptop vaio in offer",
+      "title": {
+        "fa": "لپ‌تاپ وایو در پیشنهاد",
+        "en": "laptop vaio in offer"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/3.jpg"
     },
-
     {
       "Price": "12345 $",
       "id": 16034777,
-      "title": "گوشواره طلا 18 عیار مدل A",
-      "image_url": "https://dkstatics-public.digikala.com/digikala-products/5.jpg"
+      "title": {
+        "fa": "گوشواره طلا 18 عیار مدل A",
+        "en": "18K Gold Earring Model A"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/95300.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034778,
-      "title": "ساعت مچی مردانه مدل B",
+      "title": {
+        "fa": "ساعت مچی مردانه مدل B",
+        "en": "Men's Watch Model B"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/6.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034779,
-      "title": "کیف زنانه مدل C",
+      "title": {
+        "fa": "کیف زنانه مدل C",
+        "en": "Women's Bag Model C"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/7.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034780,
-      "title": "کفش ورزشی مردانه مدل D",
+      "title": {
+        "fa": "کفش ورزشی مردانه مدل D",
+        "en": "Men's Sports Shoes Model D"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/8.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034781,
-      "title": "پالتو زنانه مدل E",
+      "title": {
+        "fa": "پالتو زنانه مدل E",
+        "en": "Women's Coat Model E"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/9.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034782,
-      "title": "شلوار جین مردانه مدل F",
+      "title": {
+        "fa": "شلوار جین مردانه مدل F",
+        "en": "Men's Jeans Model F"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/10.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034783,
-      "title": "کفش مجلسی زنانه مدل G",
+      "title": {
+        "fa": "کفش مجلسی زنانه مدل G",
+        "en": "Women's Formal Shoes Model G"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/11.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034784,
-      "title": "کمربند مردانه مدل H",
+      "title": {
+        "fa": "کمربند مردانه مدل H",
+        "en": "Men's Belt Model H"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/12.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034785,
-      "title": "عطر زنانه مدل I",
+      "title": {
+        "fa": "عطر زنانه مدل I",
+        "en": "Women's Perfume Model I"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/13.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034786,
-      "title": "عطر مردانه مدل J",
+      "title": {
+        "fa": "عطر مردانه مدل J",
+        "en": "Men's Perfume Model J"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/14.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034787,
-      "title": "کفش اسپرت زنانه مدل K",
+      "title": {
+        "fa": "کفش اسپرت زنانه مدل K",
+        "en": "Women's Sport Shoes Model K"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/15.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034788,
-      "title": "کیف دوشی مردانه مدل L",
+      "title": {
+        "fa": "کیف دوشی مردانه مدل L",
+        "en": "Men's Shoulder Bag Model L"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/16.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034789,
-      "title": "پالتو مردانه مدل M",
+      "title": {
+        "fa": "پالتو مردانه مدل M",
+        "en": "Men's Coat Model M"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/17.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034790,
-      "title": "کفش راحتی زنانه مدل N",
+      "title": {
+        "fa": "کفش راحتی زنانه مدل N",
+        "en": "Women's Casual Shoes Model N"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/18.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034791,
-      "title": "شلوار کتان مردانه مدل O",
+      "title": {
+        "fa": "شلوار کتان مردانه مدل O",
+        "en": "Men's Chino Pants Model O"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/19.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034792,
-      "title": "ساعت مچی زنانه مدل P",
+      "title": {
+        "fa": "ساعت مچی زنانه مدل P",
+        "en": "Women's Watch Model P"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/20.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034793,
-      "title": "کفش ورزشی زنانه مدل Q",
+      "title": {
+        "fa": "کفش ورزشی زنانه مدل Q",
+        "en": "Women's Sports Shoes Model Q"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/21.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034794,
-      "title": "کیف لپ‌تاپ مدل R",
+      "title": {
+        "fa": "کیف لپ‌تاپ مدل R",
+        "en": "Laptop Bag Model R"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/22.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034795,
-      "title": "کفش چرم مردانه مدل S",
+      "title": {
+        "fa": "کفش چرم مردانه مدل S",
+        "en": "Men's Leather Shoes Model S"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/23.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034796,
-      "title": "کت تک مردانه مدل T",
+      "title": {
+        "fa": "کت تک مردانه مدل T",
+        "en": "Men's Blazer Model T"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/24.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034797,
-      "title": "شلوارک زنانه مدل U",
+      "title": {
+        "fa": "شلوارک زنانه مدل U",
+        "en": "Women's Shorts Model U"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/25.jpg"
     },
     {
       "Price": "12345 $",
       "id": 16034798,
-      "title": "کفش تابستانی مردانه مدل V",
+      "title": {
+        "fa": "کفش تابستانی مردانه مدل V",
+        "en": "Men's Summer Shoes Model V"
+      },
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/26.jpg"
     }
   ]
