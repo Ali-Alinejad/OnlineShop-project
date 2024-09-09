@@ -11,7 +11,7 @@ import Intro from "../Slides/Intro";
 
 function Home() {
   return (
-    <div>
+    <div className="bg-stone-50">
       <NavbarHeader/>
       <Intro />
       <Cart />
