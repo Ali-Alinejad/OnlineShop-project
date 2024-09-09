@@ -96,7 +96,7 @@ function Intro() {
         2xl:top-[63%]
         
         font-mono z-10 font-bold left-10 top-90 shadow-lg bg-gradient-to-b 
-        from-rose-400 to-rose-700"
+        from-rose-500 to-rose-800"
         >
           خرید اخرین مدل های مک بوک
         </Button>

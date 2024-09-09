@@ -70,7 +70,6 @@ function Digikala() {
       {cartData.map((item) => (
         <div className="w-[200px] h-[300px] m-12 flex-col gap" key={item.id}>
           <Card
-            
             isPressable
             onPress={handlePress}
             radius="lg"
@@ -78,8 +77,6 @@ function Digikala() {
           >
             <CardBody className="overflow-hidden m-2 cursor-pointer">
               <Image
-                
-              
                 alt="Card background"
                 loading="lazy"
                 className="z-0 scale-80 hover:scale-100"
@@ -89,20 +86,18 @@ function Digikala() {
             <CardFooter className="text-small justify-between animate-jump animate-infinite">
               <div className="max-w-md">
                 <div className="space-y-1">
-                  <h4 className="text-medium font-medium">
-                    {item.title["en"]}
-                  </h4>
+                  <h4 className="text-medium font-medium">{item.Price}</h4>
                   <p className="text-small text-default-400">
-                    Beautiful, fast and modern React UI library.
+                    {item.title["fa"]}
                   </p>
                 </div>
-                <Divider className="my-2 " />
-                <div className="flex h-5 items-center space-x-4 text-small">
-                  <div>Blog</div>
+                <Divider className="my-2   " />
+                <div className="flex h-5 items-center space-x-4 text-sm">
+                  <div>{item.features.brand["fa"]}</div>
                   <Divider orientation="vertical" />
-                  <div>Docs</div>
+                  <div>{item.features.color["fa"]}</div>
                   <Divider orientation="vertical" />
-                  <div>Source</div>
+                  <div>{item.features.type["fa"]}</div>
                 </div>
               </div>
               <Button
@@ -113,7 +108,7 @@ function Digikala() {
                   <ImCircleRight className="scale-125 hover:scale-125 hover:animate-spinner-ease-spin" />
                 }
               >
-                Buy
+                خرید
               </Button>
             </CardFooter>
           </Card>

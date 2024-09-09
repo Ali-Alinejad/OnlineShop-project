@@ -25,18 +25,18 @@ const Footer = () => {
 
   return (
     <motion.footer
-      className="text-white mt-20 h-auto"
+      className="text-gray-900 mt-20 h-auto"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
     >
-      <div className="mx-auto px-4 w-full h-auto bg-rose-900 ">
+      <div className="mx-auto px-4 w-full h-auto bg-stone-100 border-rose-700 border-t-4 rounded-lg">
         <div className="flex flex-col md:flex-row justify-between mt-10 p-14">
           <div className="mb-4 md:mb-0">
-            <h2 className="text-rose-200 text-4xl font-bold">ElectroShop</h2>
-            <p className="mt-2 text-gray-400">پیش قدم در تکنولوژی</p>
-            <p className="mt-2 text-gray-400">
+            <h2 className="text-rose-800 text-4xl font-bold">ElectroShop</h2>
+            <p className="mt-2 text-gray-700">پیش قدم در تکنولوژی</p>
+            <p className="mt-2 text-gray-700">
               ما بهترین محصولات الکترونیکی را با قیمت مناسب ارائه می‌دهیم.
             </p>
             <div className="flex items-center mt-4">
@@ -47,37 +47,37 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row">
             <ul className="flex flex-col md:flex-row md:space-x-8">
               <li>
-                <Button auto flat color="error" className="hover:bg-red-100">
+                <Button auto flat color="error" className="hover:bg-red-700">
                   خانه
                 </Button>
               </li>
               <li>
-                <Button auto flat color="error" className="hover:bg-red-100">
+                <Button auto flat color="error" className="hover:bg-red-700">
                   درباره ما
                 </Button>
               </li>
               <li>
-                <Button auto flat color="error" className="hover:bg-red-100">
+                <Button auto flat color="error" className="hover:bg-red-700">
                   خدمات
                 </Button>
               </li>
               <li>
-                <Button auto flat color="error" className="hover:bg-red-100">
+                <Button auto flat color="error" className="hover:bg-red-700">
                   محصولات
                 </Button>
               </li>
               <li>
-                <Button auto flat color="error" className="hover:bg-red-100">
+                <Button auto flat color="error" className="hover:bg-red-700">
                   وبلاگ
                 </Button>
               </li>
               <li>
-                <Button auto flat color="error" className="hover:bg-red-100">
+                <Button auto flat color="error" className="hover:bg-red-700">
                   پشتیبانی
                 </Button>
               </li>
               <li>
-                <Button auto flat color="error" className="hover:bg-red-100">
+                <Button auto flat color="error" className="hover:bg-red-700">
                   تماس با ما
                 </Button>
               </li>
@@ -85,9 +85,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center border-t-1 ">
+        <div className="flex flex-row justify-center border-t-1 border-rose-700 ">
           <div className="flex flex-col items-center mt-4 p-8 pr-0">
-            <h3 className="text-rose-50 font-bold mb-2 text-lg">
+            <h3 className="text-gray-700 font-bold mb-2 text-lg">
               برای دریافت آخرین اخبار ایمیل خود را وارد کنید
             </h3>
 
@@ -97,15 +97,16 @@ const Footer = () => {
                 value={email}
                 onChange={handleEmailChange}
                 placeholder="ایمیل خود را وارد کنید"
-                className="w-64"
+                className="w-64 border-1 border-rose-500 rounded-md"
                 color=""
                 required
+                
               />
               <Button
                 type="submit"
                 color="default"
                 auto
-                className="hover:bg-red-400"
+                className="hover:bg-rose-700"
               >
                 تایید
               </Button>
@@ -117,7 +118,7 @@ const Footer = () => {
               href="https://github.com/yourusername"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-rose-100 hover:text-red-200 transition duration-300"
+              className="text-rose-700 hover:text-red-500 transition duration-300"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
             >
@@ -127,7 +128,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/yourusername"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-rose-100 hover:text-red-200 transition duration-300"
+              className="text-rose-700 hover:text-red-500 transition duration-300"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
             >
@@ -137,7 +138,7 @@ const Footer = () => {
               href="https://www.instagram.com/yourusername"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-rose-100 hover:text-red-200 transition duration-300"
+              className="text-rose-700 hover:text-red-500 transition duration-300"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
             >
@@ -147,7 +148,7 @@ const Footer = () => {
               href="https://t.me/yourusername"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-rose-100 hover:text-red-200 transition duration-300"
+              className="text-rose-700 hover:text-red-500 transition duration-300"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
             >
@@ -156,8 +157,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-8 border-t border-gray-200 pt-4">
-          <p className="text-center text-sm mt-4 text-gray-200 pb-2">
+        <div className="mt-8 border-t border-rose-700 pt-4">
+          <p className="text-center text-sm mt-4 text-gray-800 pb-2">
             © {new Date().getFullYear()} ElectroShop. کلیه حقوق محفوظ است.
           </p>
         </div>
@@ -170,7 +171,7 @@ const Footer = () => {
           50% {
             border-color: red;
           }
-          100% {
+          700% {
             border-color: black;
           }
         }
