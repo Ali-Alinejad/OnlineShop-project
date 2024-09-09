@@ -57,7 +57,7 @@ function Intro() {
         </Table>
       </div>
       <div
-        className="relative mt-8 mx-auto rounded-2xl flex justify-end flex-row h-[70vh] w-[90%]  shadow-xl
+        className="relative mt-8 mx-auto rounded-2xl flex justify-end flex-row h-[70vh] w-[90%]  shadow-xl z-0
       
       max-sm:h-[40vh]
       

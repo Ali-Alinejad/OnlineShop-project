@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import {
   Button,
   Card,
@@ -5,76 +6,16 @@ import {
   CardFooter,
   Divider,
   Image,
-  Progress,
 } from "@nextui-org/react";
-import { useEffect, useState } from "react";
 import { ImCircleRight } from "react-icons/im";
-
-function Digikala() {
-  const [cartData, setCartData] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    async function fetchCartData() {
-      try {
-        const res = await fetch("http://localhost:8000/products");
-        if (!res.ok) {
-          throw new Error("Network response was not ok");
-        }
-        const data = await res.json();
-        setCartData(data);
-      } catch (error) {
-        setError(error.message);
-      } finally {
-        setLoading(false);
-      }
-    }
-
-    fetchCartData();
-  }, []);
-  const handlePress = () => {
-  console.log("pressed")
-}
-  
-  
-  if (loading) {
-    return (
-      
-        <Progress
-          size="sm"
-          isIndeterminate
-          aria-label="Loading..."
-          className="max-w mt-2"
-        />
-     
-    );
-  }
-
-  if (error) {
-    return (
-      <h1 className="text-xl border-2 divide-dashed text-center mt-2 p-10 flex flex-col mx-auto">
-        {error}
-        <a href="/" to="/">
-          <Button className="w-24 mx-auto text-lg">
-            Reload
-            <span className="scale-150 animate-spinner-ease-spin">⚙️</span>
-          </Button>
-        </a>
-      </h1>
-    );
-  }
-
+import { useLocation } from "react-router-dom";
+function Cart({ items }) {
+  const location = useLocation();
   return (
-    <div className="flex flex-row flex-wrap row-span-4 justify-center text-center gap-8 m-2 p-2">
-      {cartData.map((item) => (
-        <div className="w-[200px] h-[300px] m-12 flex-col gap" key={item.id}>
-          <Card
-            isPressable
-            onPress={handlePress}
-            radius="lg"
-            className="hover:scale-105 h-[400px] "
-          >
+    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 ">
+      {items.map((item) => (
+        <div key={item.id} className="w-[200px] h-[300px] m-12 flex-col ">
+          <Card isPressable radius="lg" className="hover:scale-105 h-[400px]">
             <CardBody className="overflow-hidden m-2 cursor-pointer">
               <Image
                 alt="Card background"
@@ -91,7 +32,7 @@ function Digikala() {
                     {item.title["fa"]}
                   </p>
                 </div>
-                <Divider className="my-2   " />
+                <Divider className="my-2" />
                 <div className="flex h-5 items-center space-x-4 text-sm">
                   <div>{item.features.brand["fa"]}</div>
                   <Divider orientation="vertical" />
@@ -105,10 +46,10 @@ function Digikala() {
                 variant="faded"
                 color="danger"
                 endContent={
-                  <ImCircleRight className="scale-125 hover:scale-125 hover:animate-spinner-ease-spin" />
+                  <ImCircleRight className="scale-125 hover:scale-125 hover:animate-spinner-ease-spin " />
                 }
               >
-                خرید
+                {(location.pathname === "/" ? "بازدید ": "خرید") }
               </Button>
             </CardFooter>
           </Card>
@@ -118,4 +59,4 @@ function Digikala() {
   );
 }
 
-export default Digikala;
+export default Cart;

@@ -1,10 +1,12 @@
 import NavbarHeader from "../Navbar/NavbarHeader";
+import Category from "./Category";
 
 function Order() {
     return (
       <div>
-            <NavbarHeader    />
-        Order
+        <NavbarHeader />
+        
+        <Category />
       </div>
     );
 }
