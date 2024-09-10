@@ -4,6 +4,7 @@ import useApi from "../cart/Api";
 import { Spinner } from "react-bootstrap";
 import Selection from "./Selection";
 
+
 function Category() {
   const [filteredData, setFilteredData] = useState([]);
 
@@ -57,6 +58,7 @@ function Category() {
           <Cart items={filteredData} />
         </div>
       </div>
+   
     </div>
   );
 }
