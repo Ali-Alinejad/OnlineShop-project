@@ -22,8 +22,8 @@ export default function NavbarHeader() {
   return (
     <>
       <div id="Shadow"></div>
-      <Navbar isBordered isBlurred height={"100px"} className="z-10" id="bar">
-        <NavbarContent className="justify-around z-10">
+      <Navbar isBordered isBlurred height={"100px"} className="z-10 max-sm:gap-0  max-sm:overflow-hidden" id="bar">
+        <NavbarContent className="justify-around z-10 max-sm:gap-0 ">
           <Link
             className="cursor-pointer uppercase"
             color={location.pathname === "/" ? "danger" : "foreground"}

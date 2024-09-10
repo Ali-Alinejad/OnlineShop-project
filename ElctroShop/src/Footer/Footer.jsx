@@ -100,7 +100,7 @@ const Footer = () => {
                 value={email}
                 onChange={handleEmailChange}
                 placeholder="ایمیل خود را وارد کنید"
-                className="w-64 border-1 border-rose-500 rounded-md"
+                className="w-64 border-1 border-rose-500 rounded-md  max-sm:w-32"
                 color=""
                 required
                 
