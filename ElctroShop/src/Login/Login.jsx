@@ -7,6 +7,7 @@ import {
   Button,
   Card,
   CardBody,
+  Image,
   
 } from "@nextui-org/react";
 import './login.css'
@@ -20,7 +21,7 @@ import NavbarHeader from "../Navbar/NavbarHeader";
         <NavbarHeader />
         <div
           id="Container"
-          className="flex flex-row  p-2 mt-[10%] w-[130vh] mx-auto xl:ml-[455px] sm:ml-[0] shadow-none"
+          className="flex flex-row  p-2 mt-[5%] w-[130vh] mx-auto xl:ml-[455px] sm:ml-[0] shadow-none"
         >
           <div className="flex flex-col w-full justify-start  w-[40%] ">
             <Card className="max-w-full  h-[500px] ">
@@ -57,9 +58,11 @@ import NavbarHeader from "../Navbar/NavbarHeader";
                         </Link>
                       </p>
                       <div className="flex gap-2 justify-end">
-                        <Button fullWidth color="danger">
-                          Login
-                        </Button>
+                        <Link href="/" className="text-white w-full">
+                          <Button fullWidth color="danger">
+                            Login
+                          </Button>
+                        </Link>
                       </div>
                     </form>
                   </Tab>
@@ -105,7 +108,15 @@ import NavbarHeader from "../Navbar/NavbarHeader";
             </Card>
           </div>
           <div>
-            <div className=" h-[100%] w-[700px] rounded-3xl shadow-md"></div>
+            <div className=" h-[100%] w-[760px] rounded-3xl ">
+              <Image
+                width={1000}
+                alt="NextUI hero Image"
+                src="https://nextui-docs-v2.vercel.app/images/hero-card-complete.jpeg"
+                isZoomed
+                
+              />
+            </div>
           </div>
         </div>
       </>

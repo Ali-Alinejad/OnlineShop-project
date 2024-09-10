@@ -6,6 +6,7 @@ import Home from "./Home/Home";
 import Error from "./Error/Error";
 import Login from "./Login/Login";
 import Order from "./Order/Order";
+import Totals from "./Total/Totals";
 
 
 const router = createBrowserRouter([
@@ -16,12 +17,17 @@ const router = createBrowserRouter([
   },
   {
     path: "/Login",
-    element: <Login/>,
+    element: <Login />,
     errorElement: <Error />,
   },
   {
     path: "/Order",
-    element: <Order/>,
+    element: <Order />,
+    errorElement: <Error />,
+  },
+  {
+    path: "/total",
+    element: <Totals />,
     errorElement: <Error />,
   },
   {

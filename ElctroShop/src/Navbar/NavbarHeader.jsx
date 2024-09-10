@@ -51,10 +51,10 @@ export default function NavbarHeader() {
             <NavbarItem>
               <Link
                 className="cursor-pointer"
-                href="/order"
-                color={location.pathname === "/order" ? "danger" : "foreground"}
+                href="/total"
+                color={location.pathname === "/total" ? "danger" : "foreground"}
               >
-                Dashboard
+                Total
               </Link>
             </NavbarItem>
           </NavbarContent>
