@@ -1,11 +1,11 @@
 {
   "products": [
     {
-      "Price": "12345 $",
+      "Price": "999$",
       "id": 14829816,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -24,7 +24,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/76010.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": "999$",
       "id": 16365971,
       "features": {
         "type": {
@@ -51,7 +51,7 @@
       "id": 16034777,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -189,7 +189,7 @@
       "id": 16034783,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -212,7 +212,7 @@
       "id": 16034785,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -235,7 +235,7 @@
       "id": 16034786,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -258,7 +258,7 @@
       "id": 16034788,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -281,7 +281,7 @@
       "id": 16034789,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -304,7 +304,7 @@
       "id": 16034790,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -327,7 +327,7 @@
       "id": 16034792,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -373,7 +373,7 @@
       "id": 16034794,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -396,7 +396,7 @@
       "id": 16034795,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -442,7 +442,7 @@
       "id": 16034797,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -465,7 +465,7 @@
       "id": 16034798,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -488,7 +488,7 @@
       "id": 16034799,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -511,7 +511,7 @@
       "id": 16034800,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -557,7 +557,7 @@
       "id": 16034802,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -580,7 +580,7 @@
       "id": 16034803,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -603,7 +603,7 @@
       "id": 16034804,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -626,7 +626,7 @@
       "id": 16034805,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -649,7 +649,7 @@
       "id": 16034806,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -672,7 +672,7 @@
       "id": 16034807,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -695,7 +695,7 @@
       "id": 16034808,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -718,7 +718,7 @@
       "id": 16034809,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -741,7 +741,7 @@
       "id": 16034810,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -764,7 +764,7 @@
       "id": 16034811,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
@@ -787,7 +787,7 @@
       "id": 16034812,
       "features": {
         "type": {
-          "fa": "لب تاپ",
+          "fa": "لبتاپ",
           "en": "Laptop"
         },
         "color": {
