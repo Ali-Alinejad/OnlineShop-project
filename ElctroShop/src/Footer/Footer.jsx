@@ -85,7 +85,10 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center border-t-1 border-rose-700 ">
+        <div className="flex flex-row justify-center border-t-1 border-rose-700 
+        
+        max-sm:flex-col
+        ">
           <div className="flex flex-col items-center mt-4 p-8 pr-0">
             <h3 className="text-gray-700 font-bold mb-2 text-lg">
               برای دریافت آخرین اخبار ایمیل خود را وارد کنید
@@ -113,7 +116,7 @@ const Footer = () => {
             </form>
           </div>
 
-          <div className="flex flex-row items-center m-10 gap-8 mt-14">
+          <div className="flex flex-row items-center m-10 gap-8 mt-14 max-sm:m-0  max-sm:gap-2">
             <motion.a
               href="https://github.com/yourusername"
               target="_blank"

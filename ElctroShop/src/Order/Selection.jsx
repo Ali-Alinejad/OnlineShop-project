@@ -9,7 +9,7 @@ import {
 } from "@nextui-org/react";
 import Sorting from "./Sorting";
 
-
+import './Selection.css'
 
 
 export default function Selection() {
@@ -17,8 +17,8 @@ export default function Selection() {
 
     return (
       <>
-        <div>
-          <div className="flex flex-col gap-3">
+        <div > 
+          <div className="flex flex-col gap-3" >
             <Sorting />
             <Table color={"warning"} selectionMode="single" aria-label="Filter">
               <TableHeader>

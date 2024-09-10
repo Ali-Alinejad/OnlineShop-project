@@ -50,14 +50,7 @@ function TextIntro() {
           <div className=" text-rose-700 mt-52  text-8xl"> با خیالی راحت</div>
         </motion.p>
 
-        <motion.p
-          initial={{ opacity: 0, y: +1000 }}
-          whileInView={{ opacity: 1, y: 550 }}
-          viewport={{ once: true }}
-          transition={{ duration: 1 }}
-        >
-          <div className="font-extralight scale-y-[8]  text-rose-700"> |</div>
-        </motion.p>
+        
       </div>
     </div>
   );
