@@ -12,7 +12,7 @@ export default function useApi() {
           throw new Error("Network response was not ok");
         }
         const data = await res.json();
-        console.log("Fetched data:", data);
+    
         setCartData(data);
       } catch (error) {
         setError(error);

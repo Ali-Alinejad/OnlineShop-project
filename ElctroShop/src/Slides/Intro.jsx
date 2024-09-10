@@ -17,12 +17,8 @@ function Intro() {
   return (
     <>
       <div>
-        <motion.Image
-          initial={{ opacity: 0, y: -300 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 1 }}
-        >
+       
+       
           <Table
             isStriped
             aria-label=""
@@ -61,7 +57,7 @@ function Intro() {
               </TableRow>
             </TableBody>
           </Table>
-        </motion.Image>
+    
       </div>
       <div
         className="relative mt-8 mx-auto rounded-2xl flex justify-end flex-row h-[70vh] w-[90%]  shadow-xl z-0
@@ -86,7 +82,7 @@ function Intro() {
         >
           MAC BOOK PRO
         </h1>
-          <motion.Image
+          <motion.div
           initial={{ opacity: 0, }}
           whileInView={{ opacity: 1}}
           viewport={{ once: true }}
@@ -113,7 +109,7 @@ function Intro() {
         >
           خرید اخرین مدل های لب تاپ
           </Button>
-          </motion.Image>
+          </motion.div>
         <motion.Image
           initial={{ opacity: 0, x: 300 }}
           whileInView={{ opacity: 1, x: 0 }}

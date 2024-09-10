@@ -4,6 +4,7 @@
 import Footer from "../Footer/Footer";
 import NavbarHeader from "../Navbar/NavbarHeader";
 import TextIntro from "../Section/TextIntro";
+import Collection from "../Section/Collection";
 
  
 import Intro from "../Slides/Intro";
@@ -18,6 +19,7 @@ function Home() {
       <NavbarHeader/>
       <Intro />
       <TextIntro /> 
+      <Collection />
       <Footer />
     </div>
   );
