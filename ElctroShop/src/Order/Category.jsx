@@ -49,9 +49,11 @@ function Category() {
 
   return (
     <div className="flex flex-row-reverse gap-1 w-full h-full">
-    <Selection />
+      <div className="border-l-2 border-rose-700 xl:w-[30%] max-sm:opacity-0 md:w-[50%] h-[89vh] p-10">
+      <Selection />
+      </div>
       <div className="w-[80%]">
-        <div className="w-[80%] h-[88%] overflow-y-scroll fixed">
+        <div className="sm:w-[55%] xl:w-[71%] max-sm:w-[100%] h-[88%] overflow-y-scroll fixed">
           <Cart items={filteredData} />
         </div>
       </div>

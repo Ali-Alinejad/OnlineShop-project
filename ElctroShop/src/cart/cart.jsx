@@ -14,9 +14,9 @@ function Cart({ items }) {
   const location = useLocation();
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3  gap-6">
       {items.map((item) => (
-        <div key={item.id} className="w-[200px] h-[300px] m-12 flex-col">
+        <div key={item.id} className="w-[200px] h-[320px] m-12 flex-col">
           <Card isPressable radius="lg" className="hover:scale-105 h-[400px]">
             <CardBody className="overflow-hidden m-2 cursor-pointer">
               <Image
