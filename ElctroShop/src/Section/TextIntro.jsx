@@ -5,9 +5,9 @@ function TextIntro() {
   return (
     <div>
       <div
-        className="h-[250vh] mx-auto text-center text-5xl font-mono
+        className="h-[250vh] mx-auto text-center text-5xl 
             my-40
-            font-extrabold max-sm:scale-50"
+            font-extrabold max-sm:scale-50 max-sm:0 max-sm:h-[100vh] mb-96"
       >
         <motion.p
           initial={{ opacity: 0, y: +300 }}
@@ -15,7 +15,7 @@ function TextIntro() {
           viewport={{ once: true }}
           transition={{ duration: 1 }}
         >
-          <div className="font-extralight scale-y-[8] text-rose-700 leading-tight">
+          <div className="font-extralight scale-y-[8] text-rose-700 leading-tight ">
             {" "}
             |
           </div>
@@ -59,7 +59,7 @@ function TextIntro() {
           viewport={{ once: true }}
           transition={{ duration: 4 }}
         >
-          <div className=" mt-36  text-8xl max-sm:text-right   right-96 border bg-rose-700 w-[100%] text-white">
+          <div className=" mt-36  text-8xl max-sm:text-right  max-sm:mt-0   right-96 border bg-rose-700 w-[100%] text-white max-sm:text-7xl">
             فروشگاه الکترو
           </div>
         </motion.p>
@@ -77,7 +77,7 @@ function TextIntro() {
             lg:scale-75
             xl:scale-90
             max-md:scale-80
-            max-sm:scale-150
+     
            xl:left-0
            xl:p-0
 

@@ -3,6 +3,7 @@ import Cart from "../cart/cart";
 import useApi from "../cart/Api";
 import { Spinner } from "react-bootstrap";
 import Selection from "./Selection";
+import { motion } from "framer-motion";
 
 
 function Category() {
@@ -58,7 +59,14 @@ function Category() {
       </div>
       <div className="w-[80%]">
         <div className="sm:w-[55%] xl:w-[71%] max-sm:w-[100%] h-[88%] overflow-y-scroll fixed">
-          <Cart items={filteredData} />
+         <motion.Image
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1}}
+          viewport={{ once: true }}
+          transition={{ duration: 1.3 }}
+        >
+            <Cart items={filteredData} />
+            </motion.Image>
         </div>
       </div>
     </div>

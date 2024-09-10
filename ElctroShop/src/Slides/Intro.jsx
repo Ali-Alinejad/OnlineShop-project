@@ -1,6 +1,8 @@
 import { Image } from "@nextui-org/react";
 import intro from "../../public/images/macBook1.png";
 import { Button } from "@nextui-org/react";
+import { motion } from "framer-motion";
+
 import {
   Table,
   TableHeader,
@@ -15,46 +17,51 @@ function Intro() {
   return (
     <>
       <div>
-        <Table
-          isStriped
-          aria-label=""
-          className="absolute w-[30%] left-28 top-60 max-lg:opacity-0
+        <motion.Image
+          initial={{ opacity: 0, y: -300 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
+          <Table
+            isStriped
+            aria-label=""
+            className="absolute w-[30%] left-28 top-60 max-lg:opacity-0
           max-xl:opacity-0
           2xl:opacity-100"
-          
-          
-        >
-          <TableHeader>
-            <TableColumn>نام</TableColumn>
-            <TableColumn>مشخصات</TableColumn>
-          </TableHeader>
-          <TableBody>
-            <TableRow key="1">
-              <TableCell >برند</TableCell>
-              <TableCell>اپل</TableCell>
-            </TableRow>
-            <TableRow key="2">
-              <TableCell>رنگ بندی</TableCell>
-              <TableCell>⬜⬛🟨</TableCell>
-            </TableRow>
-            <TableRow  key="3">
-              <TableCell>سایز صفحه</TableCell>
-              <TableCell>14.5 اینچ</TableCell>
-            </TableRow>
-            <TableRow key="4">
-              <TableCell>گارانتی</TableCell>
-              <TableCell> دو سال</TableCell>
-            </TableRow>
-            <TableRow key="5">
-              <TableCell>ساخت</TableCell>
-              <TableCell>امریکا </TableCell>
-            </TableRow>
-            <TableRow key="6">
-              <TableCell>قطر</TableCell>
-              <TableCell>3 سانت</TableCell>
-            </TableRow>
-          </TableBody>
-        </Table>
+          >
+            <TableHeader>
+              <TableColumn>نام</TableColumn>
+              <TableColumn>مشخصات</TableColumn>
+            </TableHeader>
+            <TableBody>
+              <TableRow key="1">
+                <TableCell>برند</TableCell>
+                <TableCell>اپل</TableCell>
+              </TableRow>
+              <TableRow key="2">
+                <TableCell>رنگ بندی</TableCell>
+                <TableCell>⬜⬛🟨</TableCell>
+              </TableRow>
+              <TableRow key="3">
+                <TableCell>سایز صفحه</TableCell>
+                <TableCell>14.5 اینچ</TableCell>
+              </TableRow>
+              <TableRow key="4">
+                <TableCell>گارانتی</TableCell>
+                <TableCell> دو سال</TableCell>
+              </TableRow>
+              <TableRow key="5">
+                <TableCell>ساخت</TableCell>
+                <TableCell>امریکا </TableCell>
+              </TableRow>
+              <TableRow key="6">
+                <TableCell>قطر</TableCell>
+                <TableCell>3 سانت</TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </motion.Image>
       </div>
       <div
         className="relative mt-8 mx-auto rounded-2xl flex justify-end flex-row h-[70vh] w-[90%]  shadow-xl z-0
@@ -79,6 +86,12 @@ function Intro() {
         >
           MAC BOOK PRO
         </h1>
+          <motion.Image
+          initial={{ opacity: 0, }}
+          whileInView={{ opacity: 1}}
+          viewport={{ once: true }}
+          transition={{ duration: 1.2 }}
+        >
         <Button
           color="danger"
           size="lg"
@@ -98,9 +111,17 @@ function Intro() {
        z-10 font-bold left-10 top-90 shadow-lg bg-gradient-to-b 
         from-rose-500 to-rose-800"
         >
-          خرید اخرین مدل های  لب تاپ
-        </Button>
-         <Image src={intro} className="z-0"></Image>
+          خرید اخرین مدل های لب تاپ
+          </Button>
+          </motion.Image>
+        <motion.Image
+          initial={{ opacity: 0, x: 300 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
+          <Image src={intro} className="z-0"></Image>
+        </motion.Image>
       </div>
     </>
   );
