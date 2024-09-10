@@ -15,12 +15,13 @@ import {
 import { useLocation } from "react-router-dom";
 import Logo from "../../public/images/logo.png"; // Ensure this path is correct
 import './navar.css'
+
 export default function NavbarHeader() {
   const location = useLocation();
 
   return (
     <>
-          <div id="Shadow"></div>
+      <div id="Shadow"></div>
       <Navbar isBordered isBlurred height={"100px"} className="z-10" id="bar">
         <NavbarContent className="justify-around z-10">
           <Link
@@ -44,7 +45,7 @@ export default function NavbarHeader() {
                 href="/order"
                 color={location.pathname === "/order" ? "danger" : "foreground"}
               >
-                Category
+                محصولات
               </Link>
             </NavbarItem>
 
@@ -54,7 +55,7 @@ export default function NavbarHeader() {
                 href="/total"
                 color={location.pathname === "/total" ? "danger" : "foreground"}
               >
-                Total
+                صورت حساب
               </Link>
             </NavbarItem>
           </NavbarContent>
@@ -89,9 +90,12 @@ export default function NavbarHeader() {
               <DropdownItem key="profile" className="h-14 gap-2">
                 <li className="inline-flex gap-4">
                   <ul>
-                    <Link href="/Login" to="/Login">
-
-                    Create Account 
+                    <Link
+                      href="/Login"
+                      to="/Login"
+                 
+                    >
+                      ساخت اکانت
                     </Link>
                   </ul>
                   <ul>
@@ -100,13 +104,14 @@ export default function NavbarHeader() {
                 </li>
               </DropdownItem>
 
-              <DropdownItem key="settings">Settings</DropdownItem>
               <DropdownItem key="help_and_feedback">
-                Help & Feedback
+                سوالات پیش فرض
               </DropdownItem>
-              <DropdownItem key="logout" color="danger">
-                Log in
+              
+              <DropdownItem key="logout" color="primary">
+                  ورود
               </DropdownItem>
+              
             </DropdownMenu>
           </Dropdown>
         </NavbarContent>

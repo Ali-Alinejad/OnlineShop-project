@@ -7,7 +7,11 @@ export const content = [
   "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}", // Next UI components
 ];
 export const theme = {
-  extend: {},
+  extend: {
+
+
+    
+  },
 };
 export const darkMode = "class";
 export const plugins = [nextui()];

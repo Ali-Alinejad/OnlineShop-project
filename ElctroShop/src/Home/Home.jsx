@@ -3,7 +3,8 @@
 
 import Footer from "../Footer/Footer";
 import NavbarHeader from "../Navbar/NavbarHeader";
-import TextIntro from "../Section/TextIntro"; 
+import TextIntro from "../Section/TextIntro";
+
  
 import Intro from "../Slides/Intro";
 
@@ -16,7 +17,7 @@ function Home() {
     <div className="bg-stone-50">
       <NavbarHeader/>
       <Intro />
-      <TextIntro/> 
+      <TextIntro /> 
       <Footer />
     </div>
   );

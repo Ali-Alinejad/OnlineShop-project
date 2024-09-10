@@ -95,10 +95,10 @@ function Intro() {
         2xl:left-5
         2xl:top-[63%]
         
-        font-mono z-10 font-bold left-10 top-90 shadow-lg bg-gradient-to-b 
+       z-10 font-bold left-10 top-90 shadow-lg bg-gradient-to-b 
         from-rose-500 to-rose-800"
         >
-          خرید اخرین مدل های مک بوک
+          خرید اخرین مدل های  لب تاپ
         </Button>
          <Image src={intro} className="z-0"></Image>
       </div>
