@@ -44,8 +44,8 @@ const Footer = () => {
               <p>پشتیبانی 24 ساعته</p>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row">
-            <ul className="flex flex-col md:flex-row md:space-x-8">
+          <div className="flex flex-col md:flex-row ">
+            <ul className="flex flex-col md:flex-row max-md:space-x-8">
               <li>
                 <Button auto flat color="error" className="hover:bg-red-700">
                   خانه
@@ -85,10 +85,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center border-t-1 border-rose-700 
+        <div
+          className="flex flex-row justify-center border-t-1 border-rose-700 
         
         max-sm:flex-col
-        ">
+        "
+        >
           <div className="flex flex-col items-center mt-4 p-8 pr-0">
             <h3 className="text-gray-700 font-bold mb-2 text-lg">
               برای دریافت آخرین اخبار ایمیل خود را وارد کنید
@@ -99,11 +101,15 @@ const Footer = () => {
                 type="email"
                 value={email}
                 onChange={handleEmailChange}
-                placeholder="ایمیل خود را وارد کنید"
-                className="w-64 border-1 border-rose-500 rounded-md  max-sm:w-32"
+                placeholder="ایمیل "
+                className="w-64 border-1 border-rose-500 rounded-md  max-sm:w-32
+                
+       
+                
+                
+                "
                 color=""
                 required
-                
               />
               <Button
                 type="submit"

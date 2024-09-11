@@ -97,6 +97,7 @@ function Intro() {
         max-sm:p-4
         max-sm:top-48
         max-sm:left-0
+        max-md:w-96
         max-sm:text-medium
         max-lg:top-96
       max-lg:left-20

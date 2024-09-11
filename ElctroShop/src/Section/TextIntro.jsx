@@ -7,7 +7,7 @@ function TextIntro() {
       <div
         className="h-[230vh] mx-auto text-center text-5xl 
             mt-40 
-            font-extrabold max-sm:scale-50 max-sm:0 max-sm:h-[100vh] mb-96"
+            font-extrabold max-sm:scale-50 max-sm:0 max-sm:h-[100vh] mb-96 "
       >
         <motion.p
           initial={{ opacity: 0, y: +300 }}
@@ -49,8 +49,12 @@ function TextIntro() {
           viewport={{ once: true }}
           transition={{ duration: 1.2 }}
         >
-          <div className="font-extralight scale-y-[15] text-rose-700 shadow-lg">
-            {" "}
+          <div className="font-extralight scale-y-[15] text-rose-700 shadow-lg
+          
+          max-sm:shadow-none
+          
+          ">
+            
             |
           </div>
         </motion.p>
@@ -63,7 +67,11 @@ function TextIntro() {
         >
           <div
             className=" mt-36   shadow-inner
-          shadow-danger-200 text-8xl max-sm:text-right  max-sm:mt-0   right-96  bg-rose-700 w-[100%] text-white max-sm:text-7xl"
+          shadow-danger-200 text-8xl max-sm:text-right    right-96  bg-rose-700 w-[100%] text-white max-sm:text-7xl
+          max-sm:w-[100%] 
+      
+          z-5
+          "
           >
             فروشگاه الکترو
           </div>
@@ -74,16 +82,17 @@ function TextIntro() {
           viewport={{ once: true }}
           transition={{ duration: 3 }}
         >
-          <div className=" text-rose-700  ">
-            <div className=" scale-50 left-20">
+          <div className=" text-rose-700 ">
+            <div className=" scale-50 left-20 ">
               <Image
                 src={Transparent}
                 className="z-0 max-lg:scale-100  
             lg:scale-75
             md:scale-50
-            md:scale-0
+           
             xl:scale-90
-            max-md:scale-80
+            max-md:scale-75
+            max-md:z-0
      
            xl:left-0
            xl:p-0
@@ -102,15 +111,17 @@ function TextIntro() {
           viewport={{ once: true }}
           transition={{
             duration: 2,
-          
           }}
-          
         >
           <div
             className="  mt-[620px] text-5xl max-sm:text-right  max-sm:mt-0    leading-1 w-[100%] text-white bg-rose-700 
           shadow-lg
           shadow-danger-700
-          max-sm:text-7xl"
+          max-sm:text-3xl
+          max-sm:mt-[560px]
+          max-sm:w-[100%]
+
+          "
           >
             پر طرفدار ترین محصولات فروشگاه
           </div>
