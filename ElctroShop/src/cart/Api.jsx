@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import axios from "axios"; // وارد کردن Axios
+
 export default function useApi() {
   const [cartData, setCartData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -7,16 +9,10 @@ export default function useApi() {
   useEffect(() => {
     async function fetchCartData() {
       try {
-        const res = await fetch("http://localhost:8000/products");
-        if (!res.ok) {
-          throw new Error("Network response was not ok");
-        }
-        const data = await res.json();
-    
-        setCartData(data);
+        const response = await axios.get("http://localhost:8000/products");
+        setCartData(response.data); // داده‌ها از response.data دریافت می‌شوند
       } catch (error) {
-        setError(error);
-        <p>{error.message}</p>;
+        setError(error.message); 
       } finally {
         setLoading(false);
       }
@@ -25,5 +21,5 @@ export default function useApi() {
     fetchCartData();
   }, []);
 
-  return { cartData, loading, error }; 
+  return { cartData, loading, error };
 }
