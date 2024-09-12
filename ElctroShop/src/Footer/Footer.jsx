@@ -124,7 +124,7 @@ const Footer = () => {
 
           <div className="flex flex-row items-center m-10 gap-8 mt-14 max-sm:m-0  max-sm:gap-2">
             <motion.a
-              href="https://github.com/yourusername"
+              href="https://github.com/Ali-Alinejad"
               target="_blank"
               rel="noopener noreferrer"
               className="text-rose-700 hover:text-red-500 transition duration-300"
@@ -134,7 +134,7 @@ const Footer = () => {
               <FaGithub size={30} />
             </motion.a>
             <motion.a
-              href="https://www.linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/ali-alinejad-1b5827202/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-rose-700 hover:text-red-500 transition duration-300"
@@ -144,7 +144,7 @@ const Footer = () => {
               <FaLinkedin size={30} />
             </motion.a>
             <motion.a
-              href="https://www.instagram.com/yourusername"
+              href="https://www.instagram.com/alialineejad"
               target="_blank"
               rel="noopener noreferrer"
               className="text-rose-700 hover:text-red-500 transition duration-300"
@@ -154,7 +154,7 @@ const Footer = () => {
               <FaInstagram size={30} />
             </motion.a>
             <motion.a
-              href="https://t.me/yourusername"
+              href="https://t.me/Alinjad"
               target="_blank"
               rel="noopener noreferrer"
               className="text-rose-700 hover:text-red-500 transition duration-300"
@@ -168,26 +168,11 @@ const Footer = () => {
 
         <div className="mt-8 border-t border-rose-700 pt-4">
           <p className="text-center text-sm mt-4 text-gray-800 pb-2">
-            © {new Date().getFullYear()} ElectroShop. کلیه حقوق محفوظ است.
+            © {new Date().getFullYear()} created by Ali Alinejad | ElectroShop.
+            کلیه حقوق محفوظ است.
           </p>
         </div>
       </div>
-      <style>{`
-        @keyframes borderAnimation {
-          0% {
-            border-color: black;
-          }
-          50% {
-            border-color: red;
-          }
-          700% {
-            border-color: black;
-          }
-        }
-        .border-anim {
-          animation: borderAnimation 3s infinite;
-        }
-      `}</style>
     </motion.footer>
   );
 };

@@ -22,7 +22,13 @@ export default function NavbarHeader() {
   return (
     <>
       <div id="Shadow"></div>
-      <Navbar isBordered isBlurred height={"100px"} className="z-10 max-sm:gap-0  max-sm:overflow-hidden" id="bar">
+      <Navbar
+        isBordered
+        isBlurred
+        height={"100px"}
+        className="z-10 max-sm:gap-0  max-sm:overflow-hidden"
+        id="bar"
+      >
         <NavbarContent className="justify-around z-10 max-sm:gap-0 ">
           <Link
             className="cursor-pointer uppercase"
@@ -39,14 +45,13 @@ export default function NavbarHeader() {
             </NavbarBrand>
           </Link>
           <NavbarContent className="sm:flex gap-20 ">
-            <NavbarItem>
-              <Link
-                className="cursor-pointer"
-                href="/order"
-                color={location.pathname === "/order" ? "danger" : "foreground"}
-              >
-                محصولات
-              </Link>
+            <NavbarItem className="cursor-pointer">
+              {" "}
+              {location.pathname === "/" ? "خدمات" : ""}
+            </NavbarItem>
+            <NavbarItem className="cursor-pointer">
+              {" "}
+              {location.pathname === "/" ? "ارتباط با ما" : ""}
             </NavbarItem>
 
             <NavbarItem>
@@ -55,7 +60,7 @@ export default function NavbarHeader() {
                 href="/total"
                 color={location.pathname === "/total" ? "danger" : "foreground"}
               >
-                صورت حساب
+                {location.pathname === "/" ? "" : "صورت حساب"}
               </Link>
             </NavbarItem>
           </NavbarContent>
@@ -90,11 +95,7 @@ export default function NavbarHeader() {
               <DropdownItem key="profile" className="h-14 gap-2">
                 <li className="inline-flex gap-4">
                   <ul>
-                    <Link
-                      href="/Login"
-                      to="/Login"
-                 
-                    >
+                    <Link href="/Login" to="/Login">
                       ساخت اکانت
                     </Link>
                   </ul>
@@ -107,11 +108,10 @@ export default function NavbarHeader() {
               <DropdownItem key="help_and_feedback">
                 سوالات پیش فرض
               </DropdownItem>
-              
+
               <DropdownItem key="logout" color="primary">
-                  ورود
+                ورود
               </DropdownItem>
-              
             </DropdownMenu>
           </Dropdown>
         </NavbarContent>

@@ -26,8 +26,8 @@ function Collection() {
  
 
   return (
-    <div className="flex flex-row mb-[700px]">
-      <div className="w-[80%] h-[80vh] scale-100 max-sm:mt-[150px] max-sm:scale-75">
+    <div className="flex flex-row mb-[700px] lg:mb-[400px] xl:mb-0 ">
+      <div className="w-[80%] h-[80vh] scale-100 max-sm:mt-[150px] max-sm:scale-75  ">
           <motion.div
           initial={{ opacity: 0 ,  }}
           whileInView={{ opacity: 1 }}
