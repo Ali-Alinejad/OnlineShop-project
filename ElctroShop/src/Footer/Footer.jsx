@@ -168,7 +168,7 @@ const Footer = () => {
 
         <div className="mt-8 border-t border-rose-700 pt-4">
           <p className="text-center text-sm mt-4 text-gray-800 pb-2">
-            © {new Date().getFullYear()} created by Ali Alinejad | ElectroShop.
+            © 2024 created by Ali Alinejad | ElectroShop.
             کلیه حقوق محفوظ است.
           </p>
         </div>

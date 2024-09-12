@@ -13,7 +13,7 @@ import {
   Spinner,
 } from "@nextui-org/react";
 import { useLocation } from "react-router-dom";
-import Logo from "../../public/images/logo.png"; // Ensure this path is correct
+import Logo from "../../public/images/logo.png";
 import './navar.css'
 
 export default function NavbarHeader() {
@@ -88,7 +88,7 @@ export default function NavbarHeader() {
                 color="danger"
                 name=""
                 size="sm"
-                src="" // Add a profile image URL if needed
+                src=""
               />
             </DropdownTrigger>
             <DropdownMenu aria-label="Profile Actions" variant="flat">

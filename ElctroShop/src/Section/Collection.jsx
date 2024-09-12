@@ -21,8 +21,6 @@ function Collection() {
       });
   }, []);
 
-  // Corrected: Pass the function reference instead of invoking it
-
  
 
   return (

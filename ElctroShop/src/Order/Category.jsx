@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-// src/Category.jsx
 import { useEffect, useState } from "react";
 import Cart from "../cart/cart";
 import useApi from "../cart/Api";

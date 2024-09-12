@@ -10,7 +10,7 @@ import {
   Image,
   
 } from "@nextui-org/react";
-import './login.css'
+
 import NavbarHeader from "../Navbar/NavbarHeader";
 
   function Login() {
