@@ -32,7 +32,7 @@ function Selection({ selectedProduct, setSelectedProduct }) {
             ].map((item) => (
               <TableRow
                 key={item.id}
-                className="h-24 cursor-pointer"
+                className="h-24 max-sm:h-14  cursor-pointer"
                 onClick={() => setSelectedProduct(item.name)} // Set selected product
               >
                 <TableCell>{item.name}</TableCell>

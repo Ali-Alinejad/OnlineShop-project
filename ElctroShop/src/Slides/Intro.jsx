@@ -70,7 +70,7 @@ function Intro() {
         <h1
           className="absolute max-lg:top-[85%]  max-lg:text-7xl 
         
-        max-sm:text-5xl
+        max-sm:opacity-0
         max-sm:top-[74%]
 
 

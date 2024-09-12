@@ -5,7 +5,7 @@
       "id": 1,
       "features": {
         "type": {
-          "fa": "لبتاپ",
+          "fa": "پاور بانک",
           "en": "Laptop"
         },
         "color": {
@@ -28,7 +28,7 @@
       "id": 2,
       "features": {
         "type": {
-          "fa": "پاور بانک",
+          "fa": "لبتاپ",
           "en": "Power Bank"
         },
         "color": {
@@ -695,7 +695,7 @@
       "id": 16034808,
       "features": {
         "type": {
-          "fa": "لبتاپ",
+          "fa": "پرینتر",
           "en": "Laptop"
         },
         "color": {
@@ -703,7 +703,7 @@
           "en": "Black"
         },
         "brand": {
-          "fa": "",
+          "fa": "canon",
           "en": ""
         }
       },
@@ -718,7 +718,7 @@
       "id": 16034809,
       "features": {
         "type": {
-          "fa": "لبتاپ",
+          "fa": "پرینتر",
           "en": "Laptop"
         },
         "color": {
@@ -726,7 +726,7 @@
           "en": "Black"
         },
         "brand": {
-          "fa": "",
+          "fa": "canon",
           "en": ""
         }
       },
