@@ -114,7 +114,7 @@ function TextIntro() {
           }}
         >
           <div
-            className="  mt-[620px] text-5xl max-sm:text-right  max-sm:mt-0    leading-1 w-[100%] text-white bg-rose-700 
+            className="  mt-[620px] text-5xl max-sm:text-right   leading-1 w-[100%] text-white bg-rose-700 
           shadow-lg
           shadow-danger-700
           max-sm:text-3xl

@@ -1,21 +1,26 @@
+/* eslint-disable react/prop-types */
+// src/Category.jsx
 import { useEffect, useState } from "react";
 import Cart from "../cart/cart";
 import useApi from "../cart/Api";
-import { Spinner } from "react-bootstrap";
-import Selection from "./Selection";
+import { Spinner } from "@nextui-org/react";
 import { motion } from "framer-motion";
 
-function Category() {
+function Category({ selectedProduct }) {
   const [filteredData, setFilteredData] = useState([]);
   const { cartData, loading, error } = useApi();
 
   useEffect(() => {
-    // Filter the data when the data changes
     if (cartData && cartData.length > 0) {
-      const filtered = cartData.filter((item) => item.Price === "999$"); // استفاده از filter به جای slice
+      let filtered = cartData;
+      if (selectedProduct) {
+        filtered = cartData.filter(
+          (item) => item.features.type["fa"] === selectedProduct
+        );
+      }
       setFilteredData(filtered);
     }
-  }, [cartData]);
+  }, [cartData, selectedProduct]);
 
   if (loading) {
     return (
@@ -30,7 +35,6 @@ function Category() {
     );
   }
 
-  // Error state
   if (error) {
     return (
       <div className="text-xl border-2 divide-dashed text-center mt-2 p-10 flex flex-col mx-auto">
@@ -43,15 +47,15 @@ function Category() {
   }
 
   return (
-    <div className="flex flex-row-reverse gap-1 w-full h-full">
+    <div className="flex flex-row-reverse gap-1 w-[140vh] h-full">
       <div
         id="main"
-        className="border-l-2 border-rose-700 xl:w-[30%] max-sm:opacity-0 md:w-[50%] h-[89vh] p-10"
+        className="border-r-2  w-full border-rose-700 xl:w-[100%] max-sm:opacity-0 md:w-[50%] h-[89vh] p-10"
       >
-        <Selection />
+        {/* Selection component is already included in Order */}
       </div>
       <div className="w-[80%]">
-        <div className="sm:w-[55%] xl:w-[71%] max-sm:w-[100%] h-[88%] overflow-y-scroll fixed">
+        <div className="sm:w-[55%] xl:w-[73%] max-sm:w-[100%] h-[88%] overflow-y-scroll fixed">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
