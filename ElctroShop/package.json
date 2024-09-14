@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "server": "json-server --watch data/digikala.json --port 8000"
+    "server": "json-server --watch public/data/digikala.json --port 8000"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",

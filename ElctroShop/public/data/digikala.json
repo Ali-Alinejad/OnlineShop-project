@@ -1,0 +1,809 @@
+{
+  "products": [
+    {
+      "Price": "999$",
+      "id": 1,
+      "features": {
+        "type": {
+          "fa": "پاور بانک",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "anker",
+          "en": "Anker"
+        }
+      },
+      "title": {
+        "fa": "پاور بانک 20 هزار",
+        "en": "Power Bank 20000"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/76010.jpg"
+    },
+    {
+      "Price": "999$",
+      "id": 2,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Power Bank"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "vaio",
+          "en": "Vaio"
+        }
+      },
+      "title": {
+        "fa": "لپتاپ وایو در پیشنهاد",
+        "en": "laptop vaio in offer"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/3.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 3,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "acer",
+          "en": "Acer"
+        }
+      },
+      "title": {
+        "fa": "لب تاپ Acer",
+        "en": "18K Gold Earring Model A"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/8585.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 4,
+      "features": {
+        "type": {
+          "fa": "پرینتر",
+          "en": "Printer"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "canon",
+          "en": "Canon"
+        }
+      },
+      "title": {
+        "fa": "پرینتر کنون ",
+        "en": "Printer canon"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/145.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 16034779,
+      "features": {
+        "type": {
+          "fa": "موبایل",
+          "en": "Mobile"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "htc",
+          "en": "HTC"
+        }
+      },
+      "title": {
+        "fa": "موبایل htc",
+        "en": "Women's Bag Model C"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/7.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 16034780,
+      "features": {
+        "type": {
+          "fa": "موبایل",
+          "en": "Mobile"
+        },
+        "color": {
+          "fa": "نقره ای",
+          "en": "Silver"
+        },
+        "brand": {
+          "fa": "nokia",
+          "en": "Nokia"
+        }
+      },
+      "title": {
+        "fa": "گوشی نوکیا",
+        "en": "Men's Sports Shoes Model D"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/8.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 16034781,
+      "features": {
+        "type": {
+          "fa": "موبایل",
+          "en": "Printer"
+        },
+        "color": {
+          "fa": "نقره ای",
+          "en": "Silver"
+        },
+        "brand": {
+          "fa": "canon",
+          "en": "Canon"
+        }
+      },
+      "title": {
+        "fa":  "  htc موبایل ", 
+        "en": "Women's Coat Model E"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/1499.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 16034782,
+      "features": {
+        "type": {
+          "fa": "موبایل",
+          "en": "Mobile"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "sony E",
+          "en": "Sony E"
+        }
+      },
+      "title": {
+        "fa": "موبایل سونی",
+        "en": "Men's Jeans Model F"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/1110.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 16034783,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "سفید",
+          "en": "White"
+        },
+        "brand": {
+          "fa": "vaio",
+          "en": "Vaio"
+        }
+      },
+      "title": {
+        "fa": "لبتاپ وایو",
+        "en": "Women's Formal Shoes Model G"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/11.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 16034785,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "نقره ای",
+          "en": "Silver"
+        },
+        "brand": {
+          "fa": "dell",
+          "en": "Dell"
+        }
+      },
+      "title": {
+        "fa": "عطر زنانه مدل I",
+        "en": "Women's Perfume Model I"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/13.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 16034786,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "dell",
+          "en": "Dell"
+        }
+      },
+      "title": {
+        "fa": "عطر مردانه مدل J",
+        "en": "Men's Perfume Model J"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/14.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 16034788,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "سفید",
+          "en": "White"
+        },
+        "brand": {
+          "fa": "hp",
+          "en": "HP"
+        }
+      },
+      "title": {
+        "fa": "کیف دوشی مردانه مدل L",
+        "en": "Men's Shoulder Bag Model L"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/16.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 16034789,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "سفید",
+          "en": "White"
+        },
+        "brand": {
+          "fa": "hp",
+          "en": "HP"
+        }
+      },
+      "title": {
+        "fa": "پالتو مردانه مدل M",
+        "en": "Men's Coat Model M"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/17.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 16034790,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "vaio",
+          "en": "Vaio"
+        }
+      },
+      "title": {
+        "fa": "کفش راحتی زنانه مدل N",
+        "en": "Women's Casual Shoes Model N"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/18.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 16034792,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "dell",
+          "en": "Dell"
+        }
+      },
+      "title": {
+        "fa": "ساعت مچی زنانه مدل P",
+        "en": "Women's Watch Model P"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/20.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 16034793,
+      "features": {
+        "type": {
+          "fa": "اسکنر",
+          "en": "Scanner"
+        },
+        "color": {
+          "fa": "سفید",
+          "en": "White"
+        },
+        "brand": {
+          "fa": "hp",
+          "en": "HP"
+        }
+      },
+      "title": {
+        "fa": "کفش ورزشی زنانه مدل Q",
+        "en": "Women's Sports Shoes Model Q"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/21.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 16034794,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "hp",
+          "en": "HP"
+        }
+      },
+      "title": {
+        "fa": "کیف لپتاپ مدل R",
+        "en": "Laptop Bag Model R"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/22.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 16034795,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "vaio",
+          "en": "Vaio"
+        }
+      },
+      "title": {
+        "fa": "کفش چرم مردانه مدل S",
+        "en": "Men's Leather Shoes Model S"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/23.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 16034796,
+      "features": {
+        "type": {
+          "fa": "اسکنر",
+          "en": "Scanner"
+        },
+        "color": {
+          "fa": "سفید",
+          "en": "White"
+        },
+        "brand": {
+          "fa": "hp",
+          "en": "HP"
+        }
+      },
+      "title": {
+        "fa": "کت تک مردانه مدل T",
+        "en": "Men's Blazer Model T"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/24.jpg"
+    },
+    {
+      "Price": "12345 $",
+      "id": 16034797,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "سفید",
+          "en": "White"
+        },
+        "brand": {
+          "fa": "vaio",
+          "en": "Vaio"
+        }
+      },
+      "title": {
+        "fa": "شلوارک زنانه مدل U",
+        "en": "Women's Shorts Model U"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/25.jpg"
+    },
+    {
+      "Price": "1,200,000 تومان",
+      "id": 16034798,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "vaio",
+          "en": "Vaio"
+        }
+      },
+      "title": {
+        "fa": "کفش تابستانی مردانه مدل V",
+        "en": "Men's Summer Shoes Model 222V"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/49.jpg"
+    },
+    {
+      "Price": "1,300,000 تومان",
+      "id": 16034799,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "vaio",
+          "en": "Vaio"
+        }
+      },
+      "title": {
+        "fa": "کفش تابستانی مردانه مدل V",
+        "en": "Men's Summer Shoes Model V"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/48.jpg"
+    },
+    {
+      "Price": "1,400,000 تومان",
+      "id": 16034800,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "hp",
+          "en": "HP"
+        }
+      },
+      "title": {
+        "fa": "کفش تابستانی مردانه مدل V",
+        "en": "Men's Summer Shoes Model V"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/47.jpg"
+    },
+    {
+      "Price": "1,500,000 تومان",
+      "id": 16034801,
+      "features": {
+        "type": {
+          "fa": "موبایل",
+          "en": "Mobile"
+        },
+        "color": {
+          "fa": "نقره ای",
+          "en": "Silver"
+        },
+        "brand": {
+          "fa": "nokia",
+          "en": "Nokia"
+        }
+      },
+      "title": {
+        "fa": "کفش تابستانی مردانه مدل V",
+        "en": "Men's Summer Shoes Model V"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/44.jpg"
+    },
+    {
+      "Price": "1,600,000 تومان",
+      "id": 16034802,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "hp",
+          "en": "HP"
+        }
+      },
+      "title": {
+        "fa": "کفش تابستانی مردانه مدل V",
+        "en": "max"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/43.jpg"
+    },
+    {
+      "Price": "1,700,000 تومان",
+      "id": 16034803,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "نقره ای",
+          "en": "Silver"
+        },
+        "brand": {
+          "fa": "vaio",
+          "en": "Vaio"
+        }
+      },
+      "title": {
+        "fa": "کفش تابستانی مردانه مدل V",
+        "en": "Men's Summer Shoes Model V"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/39.jpg"
+    },
+    {
+      "Price": "1,800,000 تومان",
+      "id": 16034804,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "",
+          "en": ""
+        }
+      },
+      "title": {
+        "fa": "کفش تابستانی مردانه مدل V",
+        "en": "Men's Summer Shoes Model V"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/37.jpg"
+    },
+    {
+      "Price": "1,900,000 تومان",
+      "id": 16034805,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "",
+          "en": ""
+        }
+      },
+      "title": {
+        "fa": "کفش تابستانی مردانه مدل V",
+        "en": "Men's Summer Shoes Model V"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/36.jpg"
+    },
+    {
+      "Price": "2,000,000 تومان",
+      "id": 16034806,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "",
+          "en": ""
+        }
+      },
+      "title": {
+        "fa": "کفش تابستانی مردانه مدل V",
+        "en": "Men's Summer Shoes Model V"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/35.jpg"
+    },
+    {
+      "Price": "2,100,000 تومان",
+      "id": 16034807,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "",
+          "en": ""
+        }
+      },
+      "title": {
+        "fa": "کفش تابستانی مردانه مدل V",
+        "en": "Men's Summer Shoes Model V"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/34.jpg"
+    },
+    {
+      "Price": "2,200,000 تومان",
+      "id": 16034808,
+      "features": {
+        "type": {
+          "fa": "پرینتر",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "canon",
+          "en": ""
+        }
+      },
+      "title": {
+        "fa": "کفش تابستانی مردانه مدل V",
+        "en": "Men's Summer Shoes Model V"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/32.jpg"
+    },
+    {
+      "Price": "2,300,000 تومان",
+      "id": 16034809,
+      "features": {
+        "type": {
+          "fa": "پرینتر",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "canon",
+          "en": ""
+        }
+      },
+      "title": {
+        "fa": "کفش تابستانی مردانه مدل V",
+        "en": "Men's Summer Shoes Model V"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/33.jpg"
+    },
+    {
+      "Price": "2,400,000 تومان",
+      "id": 16034810,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "",
+          "en": ""
+        }
+      },
+      "title": {
+        "fa": "کفش تابستانی مردانه مدل V",
+        "en": "Men's Summer Shoes Model V"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/31.jpg"
+    },
+    {
+      "Price": "2,500,000 تومان",
+      "id": 16034811,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "",
+          "en": ""
+        }
+      },
+      "title": {
+        "fa": "کفش تابستانی مردانه مدل V",
+        "en": "Men's Summer Shoes Model V"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/30.jpg"
+    },
+    {
+      "Price": "2,600,000 تومان",
+      "id": 16034812,
+      "features": {
+        "type": {
+          "fa": "لبتاپ",
+          "en": "Laptop"
+        },
+        "color": {
+          "fa": "مشکی",
+          "en": "Black"
+        },
+        "brand": {
+          "fa": "",
+          "en": ""
+        }
+      },
+      "title": {
+        "fa": "کفش تابستانی مردانه مدل V",
+        "en": "Men's Summer Shoes Model V"
+      },
+      "image_url": "https://dkstatics-public.digikala.com/digikala-products/29.jpg"
+    }
+  ]
+}
