@@ -44,29 +44,16 @@ Here’s a quick demo of the project in action:
 ![IMG_1086](https://github.com/user-attachments/assets/6b98eeee-917a-4a86-ab32-d4c061f90ee6)
 
 
-## Contributing
 
-We welcome contributions! Please follow these steps to contribute:
 
-1. 🍴 Fork the repository.
-2. 🌿 Create a new branch:
-   ```bash
-   git checkout -b feature/YourFeature
 
-💻 Make your changes and commit them:
-bash
-git commit -m "Add some feature"
-
-📤 Push to the branch:
-bash
-git push origin feature/YourFeature
-
-🔄 Open a pull request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgments
+## Acknowledgments
 Tailwind CSS - for its utility-first CSS framework.
+
 NextUI - for providing beautiful UI components.
+
 Framer Motion - for its powerful animation capabilities.
+
 Git - for enabling effective version control.
+
 Feel free to reach out if you have any questions or suggestions!
