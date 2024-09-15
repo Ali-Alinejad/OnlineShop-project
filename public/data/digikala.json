@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "Price": "999$",
+      "Price": 990.000,
       "id": 1,
       "features": {
         "type": {
@@ -24,7 +24,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/76010.jpg"
     },
     {
-      "Price": "999$",
+      "Price": 99,
       "id": 2,
       "features": {
         "type": {
@@ -47,7 +47,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/3.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price":123,
       "id": 3,
       "features": {
         "type": {
@@ -70,7 +70,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/8585.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": 12345,
       "id": 4,
       "features": {
         "type": {
@@ -93,7 +93,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/145.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": 12345,
       "id": 16034779,
       "features": {
         "type": {
@@ -116,7 +116,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/7.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": 12345,
       "id": 16034780,
       "features": {
         "type": {
@@ -139,7 +139,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/8.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": 12345,
       "id": 16034781,
       "features": {
         "type": {
@@ -162,7 +162,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/1499.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": 12345,
       "id": 16034782,
       "features": {
         "type": {
@@ -185,7 +185,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/1110.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": 12345,
       "id": 16034783,
       "features": {
         "type": {
@@ -208,7 +208,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/11.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": 12345,
       "id": 16034785,
       "features": {
         "type": {
@@ -231,7 +231,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/13.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": 12345,
       "id": 16034786,
       "features": {
         "type": {
@@ -254,7 +254,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/14.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": 12345,
       "id": 16034788,
       "features": {
         "type": {
@@ -277,7 +277,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/16.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": 12345,
       "id": 16034789,
       "features": {
         "type": {
@@ -300,7 +300,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/17.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": 12345,
       "id": 16034790,
       "features": {
         "type": {
@@ -323,7 +323,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/18.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": 12345,
       "id": 16034792,
       "features": {
         "type": {
@@ -346,7 +346,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/20.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": 12345,
       "id": 16034793,
       "features": {
         "type": {
@@ -369,7 +369,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/21.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": 12345,
       "id": 16034794,
       "features": {
         "type": {
@@ -392,7 +392,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/22.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": 12345,
       "id": 16034795,
       "features": {
         "type": {
@@ -415,7 +415,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/23.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": 12345,
       "id": 16034796,
       "features": {
         "type": {
@@ -438,7 +438,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/24.jpg"
     },
     {
-      "Price": "12345 $",
+      "Price": 12345,
       "id": 16034797,
       "features": {
         "type": {
@@ -461,7 +461,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/25.jpg"
     },
     {
-      "Price": "1,200,000 تومان",
+      "Price": 1200,
       "id": 16034798,
       "features": {
         "type": {
@@ -484,7 +484,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/49.jpg"
     },
     {
-      "Price": "1,300,000 تومان",
+      "Price": 1300,
       "id": 16034799,
       "features": {
         "type": {
@@ -507,7 +507,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/48.jpg"
     },
     {
-      "Price": "1,400,000 تومان",
+      "Price": 1400,
       "id": 16034800,
       "features": {
         "type": {
@@ -530,7 +530,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/47.jpg"
     },
     {
-      "Price": "1,500,000 تومان",
+      "Price": 1500,
       "id": 16034801,
       "features": {
         "type": {
@@ -553,7 +553,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/44.jpg"
     },
     {
-      "Price": "1,600,000 تومان",
+      "Price": 1600,
       "id": 16034802,
       "features": {
         "type": {
@@ -576,7 +576,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/43.jpg"
     },
     {
-      "Price": "1,700,000 تومان",
+      "Price": 1700,
       "id": 16034803,
       "features": {
         "type": {
@@ -599,7 +599,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/39.jpg"
     },
     {
-      "Price": "1,800,000 تومان",
+      "Price": 1800,
       "id": 16034804,
       "features": {
         "type": {
@@ -622,7 +622,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/37.jpg"
     },
     {
-      "Price": "1,900,000 تومان",
+      "Price": 1900,
       "id": 16034805,
       "features": {
         "type": {
@@ -645,7 +645,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/36.jpg"
     },
     {
-      "Price": "2,000,000 تومان",
+      "Price": 2000,
       "id": 16034806,
       "features": {
         "type": {
@@ -668,7 +668,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/35.jpg"
     },
     {
-      "Price": "2,100,000 تومان",
+      "Price": 2100,
       "id": 16034807,
       "features": {
         "type": {
@@ -691,7 +691,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/34.jpg"
     },
     {
-      "Price": "2,200,000 تومان",
+      "Price": 2200,
       "id": 16034808,
       "features": {
         "type": {
@@ -714,7 +714,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/32.jpg"
     },
     {
-      "Price": "2,300,000 تومان",
+      "Price": 2300,
       "id": 16034809,
       "features": {
         "type": {
@@ -737,7 +737,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/33.jpg"
     },
     {
-      "Price": "2,400,000 تومان",
+      "Price": 2400,
       "id": 16034810,
       "features": {
         "type": {
@@ -760,7 +760,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/31.jpg"
     },
     {
-      "Price": "2,500,000 تومان",
+      "Price": 2500,
       "id": 16034811,
       "features": {
         "type": {
@@ -783,7 +783,7 @@
       "image_url": "https://dkstatics-public.digikala.com/digikala-products/30.jpg"
     },
     {
-      "Price": "2,600,000 تومان",
+      "Price": 2600,
       "id": 16034812,
       "features": {
         "type": {

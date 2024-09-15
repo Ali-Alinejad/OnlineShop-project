@@ -11,53 +11,51 @@ import {
   TableRow,
   TableCell,
 } from "@nextui-org/react";
+import { Link } from "react-router-dom";
 
 
 function Intro() {
   return (
     <>
       <div>
-       
-       
-          <Table
-            isStriped
-            aria-label=""
-            className="absolute w-[30%] left-28 top-60 max-lg:opacity-0
+        <Table
+          isStriped
+          aria-label=""
+          className="absolute w-[30%] left-28 top-60 max-lg:opacity-0
           max-xl:opacity-0
           2xl:opacity-100"
-          >
-            <TableHeader>
-              <TableColumn>نام</TableColumn>
-              <TableColumn>مشخصات</TableColumn>
-            </TableHeader>
-            <TableBody>
-              <TableRow key="1">
-                <TableCell>برند</TableCell>
-                <TableCell>اپل</TableCell>
-              </TableRow>
-              <TableRow key="2">
-                <TableCell>رنگ بندی</TableCell>
-                <TableCell>⬜⬛🟨</TableCell>
-              </TableRow>
-              <TableRow key="3">
-                <TableCell>سایز صفحه</TableCell>
-                <TableCell>14.5 اینچ</TableCell>
-              </TableRow>
-              <TableRow key="4">
-                <TableCell>گارانتی</TableCell>
-                <TableCell> دو سال</TableCell>
-              </TableRow>
-              <TableRow key="5">
-                <TableCell>ساخت</TableCell>
-                <TableCell>امریکا </TableCell>
-              </TableRow>
-              <TableRow key="6">
-                <TableCell>قطر</TableCell>
-                <TableCell>3 سانت</TableCell>
-              </TableRow>
-            </TableBody>
-          </Table>
-    
+        >
+          <TableHeader>
+            <TableColumn>نام</TableColumn>
+            <TableColumn>مشخصات</TableColumn>
+          </TableHeader>
+          <TableBody>
+            <TableRow key="1">
+              <TableCell>برند</TableCell>
+              <TableCell>اپل</TableCell>
+            </TableRow>
+            <TableRow key="2">
+              <TableCell>رنگ بندی</TableCell>
+              <TableCell>⬜⬛🟨</TableCell>
+            </TableRow>
+            <TableRow key="3">
+              <TableCell>سایز صفحه</TableCell>
+              <TableCell>14.5 اینچ</TableCell>
+            </TableRow>
+            <TableRow key="4">
+              <TableCell>گارانتی</TableCell>
+              <TableCell> دو سال</TableCell>
+            </TableRow>
+            <TableRow key="5">
+              <TableCell>ساخت</TableCell>
+              <TableCell>امریکا </TableCell>
+            </TableRow>
+            <TableRow key="6">
+              <TableCell>قطر</TableCell>
+              <TableCell>3 سانت</TableCell>
+            </TableRow>
+          </TableBody>
+        </Table>
       </div>
       <div
         className="relative mt-8 mx-auto rounded-2xl flex justify-end flex-row h-[70vh] w-[90%]  shadow-xl z-0
@@ -82,16 +80,17 @@ function Intro() {
         >
           MAC BOOK PRO
         </h1>
-          <motion.div
-          initial={{ opacity: 0, }}
-          whileInView={{ opacity: 1}}
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 1.2 }}
         >
-        <Button
-          color="danger"
-          size="lg"
-          className=" absolute text-2xl  w-[560px] 
+          <Link className="cursor-pointer" href="/order" to="/order">
+            <Button
+              color="danger"
+              size="lg"
+              className=" absolute text-2xl  w-[560px] 
         
         max-sm:w-full
         max-sm:p-4
@@ -107,10 +106,11 @@ function Intro() {
         
        z-10 font-bold left-10 top-90 shadow-lg bg-gradient-to-b 
         from-rose-500 to-rose-800"
-        >
-          خرید اخرین مدل های لب تاپ
-          </Button>
-          </motion.div>
+            >
+              خرید اخرین مدل های لب تاپ
+            </Button>
+          </Link>
+        </motion.div>
         <motion.Image
           initial={{ opacity: 0, x: 300 }}
           whileInView={{ opacity: 1, x: 0 }}

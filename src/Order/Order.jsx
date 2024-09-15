@@ -19,6 +19,7 @@ function Order() {
         </div>
         <div className="w-[40vh] gap-0 max-sm:scale-75   max-sm:mt-72 ">
           <Category selectedProduct={selectedProduct} />
+          
         </div>
       </div>
     </div>

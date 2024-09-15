@@ -10,11 +10,12 @@ import {
 import { ImCircleRight } from "react-icons/im";
 import { useLocation } from "react-router-dom";
 
-function Cart({ items }) {
+function Cart({ items, onSelectItem }) {
+
   const location = useLocation();
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3  gap-6">
+    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
       {items.map((item) => (
         <div
           key={item.id}
@@ -46,6 +47,7 @@ function Cart({ items }) {
                   <div>{item.features.type["fa"]}</div>
                 </div>
               </div>
+            
               <Button
                 className="m-1 h-16 mt-14"
                 variant="faded"
@@ -53,6 +55,7 @@ function Cart({ items }) {
                 endContent={
                   <ImCircleRight className="scale-125 hover:scale-125 hover:animate-spinner-ease-spin" />
                 }
+                onClick={() => onSelectItem(item)}
               >
                 {location.pathname === "/" ? "بازدید" : "خرید"}
               </Button>

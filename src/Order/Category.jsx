@@ -1,13 +1,16 @@
-/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 import Cart from "../cart/cart";
 import useApi from "../cart/Api";
-import { Spinner } from "@nextui-org/react";
+import { Button, Spinner } from "@nextui-org/react";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
+// eslint-disable-next-line react/prop-types
 function Category({ selectedProduct }) {
   const [filteredData, setFilteredData] = useState([]);
+  const [selectedItems, setSelectedItems] = useState([]); // State برای محصولات انتخاب شده
   const { cartData, loading, error } = useApi();
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (cartData && cartData.length > 0) {
@@ -20,6 +23,23 @@ function Category({ selectedProduct }) {
       setFilteredData(filtered);
     }
   }, [cartData, selectedProduct]);
+
+  const handleSelectItem = (item) => {
+    setSelectedItems((prevItems) => {
+      const isSelected = prevItems.some(
+        (selectedItem) => selectedItem.id === item.id
+      );
+      if (isSelected) {
+        return prevItems.filter((selectedItem) => selectedItem.id !== item.id);
+      } else {
+        return [...prevItems, item];
+      }
+    });
+  };
+
+  const handleNavigate = () => {
+    navigate("/total", { state: { selectedItems } });
+  };
 
   if (loading) {
     return (
@@ -49,7 +69,7 @@ function Category({ selectedProduct }) {
     <div className="flex flex-row-reverse gap-1 w-[140vh] h-full">
       <div
         id="main"
-        className="border-r-2  w-full border-rose-700 xl:w-[100%] max-sm:opacity-0 md:w-[50%] h-[89vh] p-10"
+        className="border-r-2 w-full border-rose-700 xl:w-[100%] max-sm:opacity-0 md:w-[50%] h-[89vh] p-10"
       >
         {/* Selection component is already included in Order */}
       </div>
@@ -61,9 +81,21 @@ function Category({ selectedProduct }) {
             viewport={{ once: true }}
             transition={{ duration: 1.3 }}
           >
-            <Cart items={filteredData} />
+            <Cart items={filteredData} onSelectItem={handleSelectItem} />
           </motion.div>
         </div>
+      </div>
+      <div className="fixed bottom-28 right-48 max-sm:top-[-40px] max-sm:left-24">
+        <Button
+          color="danger"
+          onClick={handleNavigate}
+          className={` p-2 rounded   ${
+            selectedItems.length === 0 ? "opacity-50  cursor-not-allowed" : ""
+          }`}
+          disabled={selectedItems.length === 0}
+        >
+          صورت حساب
+        </Button>
       </div>
     </div>
   );

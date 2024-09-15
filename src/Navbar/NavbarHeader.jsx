@@ -55,13 +55,7 @@ export default function NavbarHeader() {
             </NavbarItem>
 
             <NavbarItem>
-              <Link
-                className="cursor-pointer"
-                href="/total"
-                color={location.pathname === "/total" ? "danger" : "foreground"}
-              >
-                {location.pathname === "/" ? "" : "صورت حساب"}
-              </Link>
+         
             </NavbarItem>
           </NavbarContent>
         </NavbarContent>
