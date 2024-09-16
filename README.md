@@ -7,7 +7,7 @@
 
 ## Description
 
-Welcome to **Online shop**! This project is crafted to deliver an exceptional user experience by harnessing the power of modern web technologies, including **Tailwind CSS**, **NextUI**, and **Framer Motion**. Our aim is to create a responsive and visually stunning interface that significantly enhances user interaction.
+Welcome to **Online shop demo**! This project is crafted to deliver an exceptional user experience by harnessing the power of modern web technologies, including **Tailwind CSS**, **NextUI**, and **Framer Motion**. Our aim is to create a responsive and visually stunning interface that significantly enhances user interaction.
 
 <br/>
 
