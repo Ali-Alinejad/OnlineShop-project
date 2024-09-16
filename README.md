@@ -2,10 +2,12 @@
 
 ## ElectroShop
 
-<img src="https://github.com/user-attachments/assets/ff08eea9-15c6-479a-aec7-a0429323e160" alt="Screenshot 1" width="200" />
 
 
 ## Description
+
+<img src="https://github.com/user-attachments/assets/ff08eea9-15c6-479a-aec7-a0429323e160" alt="Screenshot 1" width="100" />
+
 
 Welcome to **Online shop demo**! This project is crafted to deliver an exceptional user experience by harnessing the power of modern web technologies, including **Tailwind CSS**, **NextUI**, and **Framer Motion**. Our aim is to create a responsive and visually stunning interface that significantly enhances user interaction.
 
