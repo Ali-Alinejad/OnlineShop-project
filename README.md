@@ -39,12 +39,6 @@ Here are some captivating screenshots showcasing the project in action:
 <img src="https://github.com/user-attachments/assets/bea177e9-3a87-43f5-899a-efc8e8b6edea" alt="Screenshot 6" width="300"/>
 <img src="https://github.com/user-attachments/assets/227d5972-e1ca-4ccb-b836-22e611802313" alt="Screenshot 7" width="300"/>
 
-## GIF Demo
-
-Here’s a quick demo of the project in action:
-
-![IMG_1086](https://github.com/user-attachments/assets/6b98eeee-917a-4a86-ab32-d4c061f90ee6)
-
 
 
 
