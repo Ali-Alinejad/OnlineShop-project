@@ -40,7 +40,7 @@ Here are some captivating screenshots showcasing the project in action:
 <img src="https://github.com/user-attachments/assets/227d5972-e1ca-4ccb-b836-22e611802313" alt="Screenshot 7" width="300"/>
 
 
-
+ 
 
 
 ## Acknowledgments
